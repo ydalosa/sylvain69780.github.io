@@ -46,15 +46,15 @@ The dihedral angle is given by the formula **cos(angle) = dot(n1,n2)**, with n1 
 
 Given there is a 60 degre rotation angle on the vertical axis to get the face 1 of a piece in contact with the face 2 of the neighbouring piece.
 
- <img src="https://latex.codecogs.com/svg.image?n_1=\begin{bmatrix}-\sqrt{3}/2&space;\\1/2&space;\\0&space;\\\end{bmatrix}" title="n_1=\begin{bmatrix}-\sqrt{3}/2 \\1/2 \\0 \\\end{bmatrix}" /> <br/><br/>
+ <img src="https://latex.codecogs.com/png.image?n_1=\begin{bmatrix}-\sqrt{3}/2&space;\\1/2&space;\\0&space;\\\end{bmatrix}" title="n_1=\begin{bmatrix}-\sqrt{3}/2 \\1/2 \\0 \\\end{bmatrix}" /> <br/><br/>
 
- <img src="https://latex.codecogs.com/svg.image?n_2=\begin{bmatrix}-\cos(r)*\sqrt{3}/2&space;\\-1/2&space;\\-\sin(r)*|\sqrt{3}/2&space;\\\end{bmatrix}" title="n_2=\begin{bmatrix}-\cos(r)*|\sqrt{3}/2 \\-1/2 \\-\sin(r)*\sqrt{3}/2 \\\end{bmatrix}" /> <br/><br/>
+ <img src="https://latex.codecogs.com/png.image?n_2=\begin{bmatrix}-\cos(r)*\sqrt{3}/2&space;\\-1/2&space;\\-\sin(r)*|\sqrt{3}/2&space;\\\end{bmatrix}" title="n_2=\begin{bmatrix}-\cos(r)*|\sqrt{3}/2 \\-1/2 \\-\sin(r)*\sqrt{3}/2 \\\end{bmatrix}" /> <br/><br/>
 
- <img src="https://latex.codecogs.com/svg.image?n_1.n_2=3/4*cos(r)-1/4" title="n_1.n_2=3/4*cos(r)-1/4" /> <br/><br/>
+ <img src="https://latex.codecogs.com/png.image?n_1.n_2=3/4*cos(r)-1/4" title="n_1.n_2=3/4*cos(r)-1/4" /> <br/><br/>
 
 the dot product simplifies to  
 
-<img src="https://latex.codecogs.com/svg.image?cos(r)=1/3" title="cos(r)=1/3" />
+<img src="https://latex.codecogs.com/png.image?cos(r)=1/3" title="cos(r)=1/3" />
 
 |symbol|value|explanation|calculation|
 |---|---|---|---|
