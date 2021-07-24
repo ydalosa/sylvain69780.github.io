@@ -7,7 +7,7 @@ tags: shadertoy
 # Puzzling Rhombic Dodecahedron
 ## What is this ?
 
-I have the chance to own a "scorpius slider spider puzzle", a piece of wood art offered to me 30 years ago as I was a child.
+I have the chance to own a "scorpius slider spider puzzle", a piece of wood art offered to me more than 30 years ago as I was a child.
 
 ![preview](https://static.blog4ever.com/2008/06/213622/artfichier_213622_8769121_202010012502419.png)
 
@@ -79,7 +79,7 @@ The French version says that it's value is **2*arctan(1/√2)** and it appears t
 
 ![preview](https://johnrausch.com/PuzzlingWorld/images/fig093.gif)
 <br/><br/>
-The Puzzling World of Polyhedral Dissections illustration.  
+Illustration from the book "The Puzzling World of Polyhedral Dissections".  
 A 90° rotation arrangement visible around the "craters" of the puzzle.
 
 ## The Puzzling World of Polyhedral Dissections
@@ -94,8 +94,6 @@ The Stewart Coffin's book **The Puzzling World of Polyhedral Dissections** has b
 
 >John Rausch
 >Oregonia, Ohio 1998
-
-[PuzzlingWorld By Stewart T. Coffin](https://johnrausch.com/PuzzlingWorld/contents.htm)
 
 This sentence of the book explains all the mystery of puzzle. [The rhombic dodecahedron can be totally enclosed by a symmetrical cluster of 12 sticks having equilateral-triangular cross-section](https://johnrausch.com/PuzzlingWorld/chap08.htm). This is the key of the design of this puzzle. There is many variations on it.
 
@@ -136,7 +134,7 @@ Top view of face 1 on the Rhombic dodecahedron rhombus face and developed view o
 
 Details of the calculations using Desmos.  
  
-<iframe src="https://www.desmos.com/calculator/855odhp6gd?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+<iframe src="https://www.desmos.com/calculator/jjntvihj13?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
 
 Verification of the calculations using Shadertoy.  
 Seems it works !
@@ -151,7 +149,7 @@ This makes me think of [Wythoff polyhedrons](https://www.shadertoy.com/results?q
 
 ## References
 
-- [Adam Savage's One Day Builds: Rhombic Dodecahedron with Matt Parker!](https://www.youtube.com/watch?v=65r_1TzJXaQ)
+- [PuzzlingWorld By Stewart T. Coffin](https://johnrausch.com/PuzzlingWorld/contents.htm)
 
 - Rhombic dodecahedron SDF from yx on Shadertoy
 
@@ -161,4 +159,6 @@ This makes me think of [Wythoff polyhedrons](https://www.shadertoy.com/results?q
 
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/slfSRj?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/slSGzy?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
+
+- [Adam Savage's One Day Builds: Rhombic Dodecahedron with Matt Parker!](https://www.youtube.com/watch?v=65r_1TzJXaQ)
 
