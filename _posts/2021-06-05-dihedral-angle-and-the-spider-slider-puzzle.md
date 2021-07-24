@@ -48,7 +48,7 @@ Given there is a 60 degre rotation angle on the vertical axis to get the face 1 
 
 <div style="background-color:rgb(200,200,200);">
   
-  
+<br/><br/>
  <img src="https://latex.codecogs.com/svg.image?n_1=\begin{bmatrix}-\sqrt{3}/2&space;\\1/2&space;\\0&space;\\\end{bmatrix}" title="n_1=\begin{bmatrix}-\sqrt{3}/2 \\1/2 \\0 \\\end{bmatrix}" /> <br/><br/>
 
  <img src="https://latex.codecogs.com/svg.image?n_2=\begin{bmatrix}-\cos(r)*\sqrt{3}/2&space;\\-1/2&space;\\-\sin(r)*|\sqrt{3}/2&space;\\\end{bmatrix}" title="n_2=\begin{bmatrix}-\cos(r)*|\sqrt{3}/2 \\-1/2 \\-\sin(r)*\sqrt{3}/2 \\\end{bmatrix}" /> <br/><br/>
@@ -86,8 +86,6 @@ A 90° rotation arrangement visible around the "craters" of the puzzle.
 
 With Philippe Cichon's blog, I discovered a puzzling book available online for free !
 
-[The rhombic dodecahedron can be totally enclosed by a symmetrical cluster of 12 sticks having equilateral-triangular cross-section](https://johnrausch.com/PuzzlingWorld/chap08.htm). This is the key of the design of this puzzle. There is many variations on it.
-
 The Stewart Coffin's book **The Puzzling World of Polyhedral Dissections** has been made available on the Internet by [John Rausch](https://www.puzzle-place.com/wiki/John_Rausch)
 
 >The Puzzling World of Polyhedral Dissections was obviously not written by Stewart to get rich. Anyone who produces such works does it as a labor of love for a subject that is very dear to them. As puzzle collectors, we owe Stewart a huge debt of gratitude for sharing with us his knowledge about the mathematics, aesthetics and philosophy of geometric puzzles. If you enjoy it as much as I do, drop Stewart a line and thank him for his unselfish gesture.
@@ -98,6 +96,8 @@ The Stewart Coffin's book **The Puzzling World of Polyhedral Dissections** has b
 >Oregonia, Ohio 1998
 
 [PuzzlingWorld By Stewart T. Coffin](https://johnrausch.com/PuzzlingWorld/contents.htm)
+
+This sentence of the book explains all the mystery of puzzle. [The rhombic dodecahedron can be totally enclosed by a symmetrical cluster of 12 sticks having equilateral-triangular cross-section](https://johnrausch.com/PuzzlingWorld/chap08.htm). This is the key of the design of this puzzle. There is many variations on it.
 
 ## Position the pieces on the Rhombic dodecahedron
 
