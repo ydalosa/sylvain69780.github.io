@@ -24,7 +24,7 @@ Even more simple but not exact is to just take the MAX of the absolute value of 
 
 I tried to understand the Cheap IQ function below using [Desmos](https://www.desmos.com/calculator/ovavcqosu8)  
 This is derived from the distance to a plan, that is dot(p,n) + h (on the same page)  
-Here the plan normal n is vec3(1), to get it normalized there is this divided by 0.57735027 that is 1/sqrt(3).  
+Here the plan normal n is vec3(1), to get it normalized there is this multiplication by 0.57735027 that is 1/sqrt(3).  
 By taking the absolute value of each coordinate, the function need to take care of only 1 plan instead of 8.  
 If I understand well, the distance is not too much over estimated, the maximum is sqrt(3) times the euclidian distance.  
 

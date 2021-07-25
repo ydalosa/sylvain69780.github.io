@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Starting with P5.js"
-tags: p5js
+title: "Starting with P5.js before coding Shaders"
+tags: shadertoy
 ---
 All started with the **Coding Train** and David Shiftman's tutorials. 
 

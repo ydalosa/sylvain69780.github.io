@@ -3,10 +3,11 @@ layout: default
 title: "Why I felt the need to blog about Shadertoy"
 tags: shadertoy
 ---
-The idea of this notebook is to references some usefull information I found in the shaders of Shadertoy.
-Hopefully this also may help someone to make cool things on this web site.
+The initial idea of this blog is to references some usefull information I found concerning Shadertoy.
 
 There is about 50 000 shaders published, and the code is accessible but seems like magic stuffs if you don't know the theory behind. My idea is to reference the ones that I studied in details or just noticed for later.
+
+Again, as Shadertoy is a kind of rabbit hole, this led me to write about several related things.
 
 I think that you don't need to be an senior programmer in order to start with shadertoy. The proof is that I'am not working as a developer currenlty. It's far simplier to learn GLSL than to learn to play Piano for example (I tried).
 

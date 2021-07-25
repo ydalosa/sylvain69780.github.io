@@ -1,12 +1,14 @@
 ---
 layout: default
-title:  "Shocked to 'Discover' Shadertoy"
+title:  "Down the Rabbit hole : Shadertoy"
 tags : shadertoy
 ---
 
 In March 2020, the COVID made me having more time to search about creative coding.
 
 And in fact I discovered more than I expected !
+
+>In English, we use the expression down the rabbit hole when we get so caught up in the search for something – like an answer to a problem – that we end up somewhere totally different.
 
 {% for shader in site.data.shaders reversed %}
 {% if shader.id == "3lsSzf" %}
