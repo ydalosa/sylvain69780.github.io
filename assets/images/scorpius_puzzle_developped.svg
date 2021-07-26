@@ -23,12 +23,12 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.4708227"
-     inkscape:cx="202.94765"
-     inkscape:cy="198.18841"
-     inkscape:window-width="1920"
-     inkscape:window-height="1027"
-     inkscape:window-x="1358"
+     inkscape:zoom="1.0400287"
+     inkscape:cx="296.62643"
+     inkscape:cy="120.66975"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
@@ -36,10 +36,16 @@
      inkscape:object-paths="true"
      inkscape:snap-midpoints="true"
      inkscape:snap-smooth-nodes="true"
-     inkscape:snap-global="true"
+     inkscape:snap-global="false"
      inkscape:snap-center="true" />
   <defs
      id="defs1114">
+    <rect
+       x="271.14494"
+       y="8.6536073"
+       width="36.538872"
+       height="28.611072"
+       id="rect5463" />
     <marker
        style="overflow:visible"
        id="marker1506"
@@ -152,6 +158,24 @@
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
          id="path1882" />
     </marker>
+    <rect
+       x="271.14494"
+       y="8.6536073"
+       width="36.538872"
+       height="28.611072"
+       id="rect11149" />
+    <rect
+       x="271.14493"
+       y="8.6536074"
+       width="36.538872"
+       height="28.611073"
+       id="rect11149-5" />
+    <rect
+       x="271.14493"
+       y="8.6536074"
+       width="36.538872"
+       height="28.611073"
+       id="rect11149-5-9" />
   </defs>
   <g
      inkscape:label="Calque 1"
@@ -159,12 +183,16 @@
      id="layer1"
      transform="translate(32.162676,-88.33581)">
     <rect
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.303142px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.329133px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
        id="rect138748"
-       width="146.9312"
-       height="96.696205"
+       width="143.17772"
+       height="116.97633"
        x="-32.011105"
-       y="88.487381" />
+       y="68.207253" />
+    <path
+       style="fill:#e5e5e5;fill-opacity:0.2516129;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:0.26499999,0.26499999;stroke-dashoffset:0"
+       d="m -10.272242,83.195498 h 89.07644 l 5.311778,14.999925 H -4.9604651 Z"
+       id="path1222" />
     <path
        style="fill:#b2b2b2;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 0.35131331,113.19542 H 89.427754 l -19.0788,27 H 9.9125142 l -9.56120089,-27"
@@ -276,5 +304,65 @@
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 10.443692,141.69542 -15.4041561,23.4"
        id="path4515" />
+    <g
+       id="g1111"
+       transform="translate(1.044455,25.32998)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.264583, 0.529166;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 36.734422,74.664324 3.59776,-3.597762"
+         id="path945" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.264583, 0.529166;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 40.332183,74.664323 -3.597762,-3.59776"
+         id="path1027" />
+    </g>
+    <g
+       id="g1167"
+       transform="translate(22.254455,40.329977)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.264583, 0.529166;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 36.734422,74.664324 3.59776,-3.597762"
+         id="path1163" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.264583, 0.529166;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 40.332183,74.664323 -3.597762,-3.59776"
+         id="path1165" />
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.264583, 0.264583;stroke-dashoffset:0;stroke-opacity:1"
+       d="M -10.272242,83.195498 V 171.95474"
+       id="path2214" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-29.873076,88.84461)"
+       id="text5461"
+       style="font-size:18.6667px;line-height:1.25;font-family:'Courier New';-inkscape-font-specification:'Courier New, Normal';white-space:pre;shape-inside:url(#rect5463)"><tspan
+         x="271.14453"
+         y="25.263508"
+         id="tspan15308">O</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-9.1308936,104.35305)"
+       id="text11147"
+       style="font-size:18.6667px;line-height:1.25;font-family:'Courier New';-inkscape-font-specification:'Courier New, Normal';white-space:pre;shape-inside:url(#rect11149)"><tspan
+         x="271.14453"
+         y="25.263508"
+         id="tspan15310">A</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,4.0034858,96.291078)"
+       id="text11147-7"
+       style="font-size:18.6667px;line-height:1.25;font-family:'Courier New';-inkscape-font-specification:'Courier New, Normal';white-space:pre;shape-inside:url(#rect11149-5)"><tspan
+         x="271.14453"
+         y="25.263508"
+         id="tspan15312">B</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-19.391687,125.63942)"
+       id="text11147-7-1"
+       style="font-size:18.6667px;line-height:1.25;font-family:'Courier New';-inkscape-font-specification:'Courier New, Normal';white-space:pre;shape-inside:url(#rect11149-5-9)"><tspan
+         x="271.14453"
+         y="25.263508"
+         id="tspan15314">C</tspan></text>
   </g>
 </svg>
