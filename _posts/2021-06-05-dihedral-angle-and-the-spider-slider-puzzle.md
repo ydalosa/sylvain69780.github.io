@@ -116,6 +116,9 @@ The diameters of the holes and the pivots can be 6,0 mm, drilling no more than 8
 
 
 ![preview](https://sylvain69780.github.io/assets/images/scorpius_puzzle_rhombus.svg) 
+<br/><br/>
+![preview](https://sylvain69780.github.io/assets/images/scorpius_puzzle_developped.svg) 
+<br/><br/>
 
 Top view of face 1 on the Rhombic dodecahedron rhombus face and developed view of face 2. Face 1 is where most of the magic happens, because it's the contact face this the inner Rhombic Dodecahedron. This is also the location of the pivots that must match an hole on face 2 of the locked neighbouring piece. 
 
@@ -143,9 +146,8 @@ Seems it works !
 
 ## Is it possible to use polar domain repetition ?
 
-Domain repetition enables to compute a shape only once by defining repetition domains, like a grid for example.  
-The polar repetition is based on non-overlapping domains, and the bending of the pieces makes this probably [impossible](https://www.shadertoy.com/view/slfGDf). May be we can use a simple dicotomy to identify the domain by testing the plans positions.  
-This makes me think of [Wythoff polyhedrons](https://www.shadertoy.com/results?query=tag%3Dwythoff) nice illustrations on Shadertoy.  
+Using the Ray marching algorithm, domain repetition enables to compute a shape only once by defining repetition domains, like a grid for example.   
+Because in the animation just shown before, this is not applicable easyly, and the rendering is very slow because each of the 24 pieces are evaluated for distance estimation.
 
 ## References
 
