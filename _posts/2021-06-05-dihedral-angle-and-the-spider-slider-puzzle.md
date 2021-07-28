@@ -117,10 +117,13 @@ The diameters of the holes and the pivots can be 6,0 mm, drilling no more than 8
 
 ![preview](https://sylvain69780.github.io/assets/images/scorpius_puzzle_rhombus.svg) 
 <br/><br/>
+
+Top view of face 1 on the Rhombic dodecahedron rhombus face and developed view of face 2. Face 1 is where most of the magic happens, because it's the contact face this the inner Rhombic Dodecahedron. This is also the location of the pivots that must match an hole on face 2 of the locked neighbouring piece. 
+
 ![preview](https://sylvain69780.github.io/assets/images/scorpius_puzzle_developped.svg) 
 <br/><br/>
 
-Top view of face 1 on the Rhombic dodecahedron rhombus face and developed view of face 2. Face 1 is where most of the magic happens, because it's the contact face this the inner Rhombic Dodecahedron. This is also the location of the pivots that must match an hole on face 2 of the locked neighbouring piece. 
+Developped view
 
 |symbol|value|explanation|calculation|
 |---|---|---|---|
