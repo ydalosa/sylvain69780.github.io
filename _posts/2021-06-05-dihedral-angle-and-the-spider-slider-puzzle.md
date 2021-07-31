@@ -167,3 +167,6 @@ Because in the animation just shown before, this is not applicable easyly, and t
 
 - [Adam Savage's One Day Builds: Rhombic Dodecahedron with Matt Parker!](https://www.youtube.com/watch?v=65r_1TzJXaQ)
 
+- My illustration using p5js
+
+<iframe  width="640" height="360" frameborder="0" src="https://preview.p5js.org/sylvain69780/embed/rCCoddv44"></iframe>
