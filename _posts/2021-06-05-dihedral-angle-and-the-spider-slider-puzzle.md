@@ -82,6 +82,19 @@ The French version says that it's value is **2*arctan(1/√2)** and it appears t
 Illustration from the book "The Puzzling World of Polyhedral Dissections".  
 A 90° rotation arrangement visible around the "craters" of the puzzle.
 
+It may be the good place to talk about these articles of IQ on the poor performances obtained when using angles instead of
+vectors operations (dot and cross products). Also some Kitten may be killed (this is a convincing argument).
+
+This one to make you know the relation between cos and dot production and sin and cross product.
+
+[Inigo Quilez   ::   articles  ::   avoiding trigonometry - 2013](https://iquilezles.org/www/articles/noacos/noacos.htm)  
+
+This one to make you understand the formulas
+>sin(α+β)=sin α ⋅ cos β + cos α ⋅ sin β
+>cos(α+β)=cos α ⋅ cos β - sin α ⋅ sin β
+
+[Inigo Quilez   ::   articles  ::   a sin/cos trick - 2010](https://iquilezles.org/www/articles/sincos/sincos.htm)
+
 ## The Puzzling World of Polyhedral Dissections
 
 With Philippe Cichon's blog, I discovered a puzzling book available online for free !
@@ -167,6 +180,6 @@ Because in the animation just shown before, this is not applicable easyly, and t
 
 - [Adam Savage's One Day Builds: Rhombic Dodecahedron with Matt Parker!](https://www.youtube.com/watch?v=65r_1TzJXaQ)
 
-- My illustration using [p5js](https://editor.p5js.org/sylvain69780/full/rCCoddv44)
+- My illustration using [p5js](https://editor.p5js.org/sylvain69780/full/rCCoddv44) and loading an OBJ file created using fusion 360.
 
 <iframe  width="640" height="360" frameborder="0" src="https://preview.p5js.org/sylvain69780/embed/rCCoddv44"></iframe>
