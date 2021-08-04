@@ -4,7 +4,7 @@ layout: default
 # About
 ## About me
 
-I'am not a professional, but love to create effects on the **Shadertoy** web site.
+I'am not a professional artist, but I'am a fan of the demo scene and love to create effects on the **Shadertoy** web site.
 
 [Here](https://www.shadertoy.com/user/sylvain69780) a link to Shadertoy showing my published shaders.
 

@@ -83,9 +83,9 @@ Illustration from the book "The Puzzling World of Polyhedral Dissections".
 A 90° rotation arrangement visible around the "craters" of the puzzle.
 
 It may be the good place to talk about these articles of IQ on the poor performances obtained when using angles instead of
-vectors operations (dot and cross products). Also some Kitten may be killed (this is a convincing argument).
+vectors operations (dot and cross products). Also some Kitten may be killed (this is a convincing argument when none of the others works).
 
-This one to make you know the relation between cos and dot production and sin and cross product.
+This one to make you know the relation between cos and dot product and sin and cross product.
 
 [Inigo Quilez   ::   articles  ::   avoiding trigonometry - 2013](https://iquilezles.org/www/articles/noacos/noacos.htm)  
 
@@ -180,6 +180,8 @@ Because in the animation just shown before, this is not applicable easyly, and t
 
 - [Adam Savage's One Day Builds: Rhombic Dodecahedron with Matt Parker!](https://www.youtube.com/watch?v=65r_1TzJXaQ)
 
-- My illustration using [p5js](https://editor.p5js.org/sylvain69780/full/rCCoddv44) and loading an OBJ file created using fusion 360.
+- My illustration using [p5js](https://editor.p5js.org/sylvain69780/full/rCCoddv44) and loading an OBJ mesh file created using Autodesk fusion 360 (free for personal use).
+
+Reference : [The Coding Train : 18.7: Loading OBJ Model - WebGL and p5.js Tutorial](https://youtu.be/FUI7HEEz9B0)
 
 <iframe  width="640" height="360" frameborder="0" src="https://preview.p5js.org/sylvain69780/embed/rCCoddv44"></iframe>

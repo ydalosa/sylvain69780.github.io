@@ -16,7 +16,7 @@ vec2 cmpxmul(in vec2 a, in vec2 b) {
 }
 ```
 
-Iq made a short verion of it here :
+Iq made a short version of it here :
 
 {% for shader in site.data.shaders %}
 {% if shader.id == "lllGWH" %}
