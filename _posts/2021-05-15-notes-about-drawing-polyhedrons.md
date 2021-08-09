@@ -42,8 +42,13 @@ Using the IQ's Rasterizer shader, I learnt more about how to declare a Mesh obje
 
 Let's do it using a mesh.
 
-![Rasterizer Icosdahedron](https://www.shadertoy.com/media/shaders/ftf3zn.jpg)  
-**[Rasterizer - Icosahedron](https://www.shadertoy.com/view/ftf3zn)** 
+<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/ftf3zn?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
+
+While visiting the Lugdunum Museum at Lyon (France) I learnt that Celtic druids already were fascinated by the shape of the Dodecahedron.  
+Nobody the exact use they made of it.  
+![Celtic Dodecahedron](https://static.vici.org/cache/268x268-6/uploads/dode_cae_dre_romain_au_muse_e_gallo_romain_de_fourvie_re.jpg)  
+[DECODING THE DRUIDIC DODECAHEDRON](http://www.celticnz.co.nz/Dodecahedron/Decoding%20the%20Druidic%20Dodecahedron1.html)
+
 
 # Polyhedrons as Voronoi's cell for 3D lattices
 

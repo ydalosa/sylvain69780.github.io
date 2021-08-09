@@ -5,6 +5,7 @@ tags: shadertoy
 ---
 "LIVE Coding and Painting with Maths" is a gold mine. There is so much information in this near 6 hours long video ! Below some links to interesting parts.
 
+[About Gamma Correction](https://youtu.be/Cfe5UQ-1L9Q?t=2293)  
 
 [Work on Candy on the floor, domain repetition, colors, position shift to not align them on a grid](https://youtu.be/Cfe5UQ-1L9Q?t=12892)
 
