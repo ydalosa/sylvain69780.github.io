@@ -3,29 +3,48 @@ layout: default
 title: "Notes about drawing polyhedrons"
 tags: shadertoy
 ---
+# I'am fond of Polyhedra !
 
-Drawning polyhedrons is quite cool, and these 3D shapes have something facinating, I would make an exception for the CUBE that is very commonly in our daily life, but still very usefull !
+>In geometry, a polyhedron (plural polyhedra or polyhedrons) is a three-dimensional shape with flat polygonal faces, straight edges and sharp corners or vertices.  
 
-First thing interesting is that there is only 5 regular polyhedrons [Platonic solid](https://en.wikipedia.org/wiki/Platonic_solid). This is just clear when one try to enumerate all possibilities to assemble triangle, square or pentagonal faces.
+Drawning polyhedra is quite cool, and these 3D shapes have something facinating.
+Everybody knows the CUBE that is very commonly seen in our daily life is still very usefull !
 
-References :
+First thing interesting is that there is only 5 regular convex polyhedra. This is just clear when one try to enumerate all possibilities to assemble triangle, square or pentagonal faces to build a volume.
 
+References :  
+
+- [Polyhedron - Wikipedia](https://en.wikipedia.org/wiki/Polyhedron)
+- [Platonic solid - Wikipedia](https://en.wikipedia.org/wiki/Platonic_solid)
 - [5 Platonic Solids - Numberphile](https://youtu.be/gVzu1_12FUc)
 - [Les 5 solides de Platon - Micmaths](https://youtu.be/eDsFmYur9Yo) (French)
+- [PuzzlingWorld By Stewart T. Coffin](https://johnrausch.com/PuzzlingWorld/contents.htm)
 
-Let's start with [Ray marching starting point](https://shadertoy.com/view/WtGXDD) from BigWings, who precisely is drawing a cube.
+# Drawing Polyhedra using rasterization
 
-I first looked at [IQ's SDF page](https://iquilezles.org/www/articles/distfunctions/distfunctions.htm) and [Mercury library](http://mercury.sexy/hg_sdf/) and it's unofficial [port on Shadertoy](https://www.shadertoy.com/view/Xs3GRB)
+On this page I focus on the Ray Marching method to render images, because this is what is mainly used on Shadertoy. Before that, let's have a look about how to do it using the more common rasterization method. As these figures have flat faces, this is obviously appropriate.
 
-The more classical way to do 3D is to define a [Mesh](https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-polygon-mesh).  
-IQ did it in a pixel shader [here](https://www.shadertoy.com/view/4slGzn) and Fabrice a tool to load meshes encoded in images [here](https://www.shadertoy.com/view/Wsy3DG). 
+Using the IQ's Rasterizer shader, I learnt more about how to declare a Mesh object, that formally declare all the faces of our figure.
+
+<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/ftf3zn?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
+
+References :  
+
+- [Scratch a Pixel free book](https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-polygon-mesh)
+- [IQ rasterizer](https://www.shadertoy.com/view/4slGzn) 
+- [Fabric Neyret Nesh loading tool](https://www.shadertoy.com/view/Wsy3DG)
 
 # Cube
 
-The exact SDF is simple, and there is an IQ's video on how to get it by yourseft.
+The exact SDF for a cube is simple, and there is an IQ's video on how to get it by yourseft.
 Even more simple but not exact is to just take the MAX of the absolute value of each point coordinates ! (fBoxCheap in Mercury library)
 
-- IQ's [box fonction](https://iquilezles.org/www/articles/distfunctions/distfunctions.htm) 
+References :
+
+- [Ray marching starting point](https://shadertoy.com/view/WtGXDD) from BigWings, who precisely is drawing a cube.
+- [Box function on IQ's SDF page](https://iquilezles.org/www/articles/distfunctions/distfunctions.htm)
+- [Mercury library](http://mercury.sexy/hg_sdf/) 
+- [Mercury library unofficial port on Shadertoy](https://www.shadertoy.com/view/Xs3GRB) 
 
 # Octahedron 
 
@@ -43,35 +62,32 @@ float sdOctahedron( vec3 p, float s)
 }
 ```
 
-# Icosahedron and Dodecahedron 
-## Drawing Icosahedron and Dodecahedron Using a mesh
-Using the IQ's Rasterizer shader, I learnt more about how to declare a Mesh object.
+## Mysterious Roman dodecahedron
 
-Let's use a mesh to declare our Dodecahedron.
-
-<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/ftf3zn?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
-
-
-## Drawing Druidic (previously assumed Roman) Dodecahedron
-While visiting the Lugdunum Museum at Lyon (France) I learnt that Celtic druids already were fascinated by the shape of the Dodecahedron !  
+While visiting the Lugdunum Museum at Lyon (France) I learnt that 2000 years ago, people were already fascinated by the shape of the Dodecahedron !  
  
-![Celtic Dodecahedron](https://static.vici.org/cache/268x268-6/uploads/dode_cae_dre_romain_au_muse_e_gallo_romain_de_fourvie_re.jpg)  
-[There is only some suppositions about the use the Druids was making of them.](http://www.celticnz.co.nz/Dodecahedron/Decoding%20the%20Druidic%20Dodecahedron1.html)  
+![Lyon Roman dodecahedron](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Dod%C3%A9ca%C3%A8dre_romain_au_Mus%C3%A9e_gallo-romain_de_Fourvi%C3%A8re.jpg/487px-Dod%C3%A9ca%C3%A8dre_romain_au_Mus%C3%A9e_gallo-romain_de_Fourvi%C3%A8re.jpg)  
 
-I spent some time to search on Shadertoy for examples, some are very complex and using [Wythoff construction](https://www.shadertoy.com/results?query=tag%3Dwythoff). The Shadertoy user **mattz** is a kind of expert on it.
+>A Roman dodecahedron or Gallo-Roman dodecahedron is a small hollow object made of copper alloy which has been cast into a regular dodecahedral shape: twelve flat pentagonal faces, each face having a circular hole of varying diameter in the middle, the holes connecting to the hollow center. Roman dodecahedra date from the 2nd to 4th centuries AD.  
 
-I found a simple exact SDF from [icosahedronal symmetry - DjinnKahn](https://www.shadertoy.com/view/Mly3R3). Even better, this is based on a space "folding" function, allowing to also draw the spheres on the corners of the Dodecahedron !
+There is several ways to get this figure. The Shadertoy user DjinnKahn created a shader that I was able to understand. It is based on a space "folding" function allowing to also draw the spheres on the corners of the Dodecahedron.
 
-[Icosahedron Weave ](https://www.shadertoy.com/view/Xty3Dy) of the same author is a gold mine, just have to dig !
+Folding "folds" a whole range of coordinates in another one. This is called "folding" because at the end we have only manage a subset of cartesians coordinates. The "ABS" function for example makes disappears all negative values that get "folded" to positive values. Before the "folding" operation, it is interesting to get an id of the original domain, in order to create variations while still calculating the shapes only once.
 
-[Day 19 - Virus - jeko](https://www.shadertoy.com/view/WlKGRW) uses a pIcosahedron function to create again visus like shapes. Seems using **Knighty** function.
+There is a very nice video of The Art of Code about "folding" 2D space to draw a nice Koch fractal !
 
-Time to make some experiments to understand how this folding technic is working.
-Folding makes "fold" a whole range of coordinates in another one. This is called "folding" because at the end we have only manage a subset of cartesians coordinates. The "ABS" function for example makes disappears all negative values that get "folded" to positive values. Before the "folding" operation, it is interesting to get an id of the original domain, in order to create variations while still calculating the shapes only once.
+I also noted some nice Celtic patterns done by Fabrice that may be used as a background.
 
-There is a very nice video of The Art of Code about how this is used and at the end to draw a nice fractal !
+References :
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/il_Qg9AqQkE?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+- [Roman dodecahedron - Wikipedia](https://en.wikipedia.org/wiki/Roman_dodecahedron)
+- [Wythoff construction on Shadertoy](https://www.shadertoy.com/results?query=tag%3Dwythoff).
+- [icosahedronal symmetry - DjinnKahn](https://www.shadertoy.com/view/Mly3R3).
+- [Icosahedron Weave - DjinnKahn](https://www.shadertoy.com/view/Xty3Dy) of the same author is a gold mine, just have to dig !
+- [Day 19 - Virus - jeko](https://www.shadertoy.com/view/WlKGRW)
+- [Shader Coding: KIFS Fractals explained! - The Art of Code](https://youtu.be/il_Qg9AqQkE)
+- [triskel (255 chars) - FabriceNeyret2](https://www.shadertoy.com/view/XlVXRW)
+- [Celtic knot 2 - FabriceNeyret2](https://www.shadertoy.com/view/XlVXRW)
 
 # Polyhedrons as Voronoi's cell for 3D lattices
 
