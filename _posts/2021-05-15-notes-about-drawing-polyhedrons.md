@@ -64,13 +64,13 @@ float sdOctahedron( vec3 p, float s)
 
 ## Mysterious Roman dodecahedron
 
-While visiting the Lugdunum Museum at Lyon (France) I learnt that 2000 years ago, people were already fascinated by the shape of the Dodecahedron !  
+While visiting the Lugdunum Museum at Lyon (France) I learnt that Gallo-Roman peoples were already fascinated by the shape of the Dodecahedron ! 2000 years after, nothing changed, Shadertoy's users are all fond of this figure.  
  
 ![Lyon Roman dodecahedron](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Dod%C3%A9ca%C3%A8dre_romain_au_Mus%C3%A9e_gallo-romain_de_Fourvi%C3%A8re.jpg/487px-Dod%C3%A9ca%C3%A8dre_romain_au_Mus%C3%A9e_gallo-romain_de_Fourvi%C3%A8re.jpg)  
 
 >A Roman dodecahedron or Gallo-Roman dodecahedron is a small hollow object made of copper alloy which has been cast into a regular dodecahedral shape: twelve flat pentagonal faces, each face having a circular hole of varying diameter in the middle, the holes connecting to the hollow center. Roman dodecahedra date from the 2nd to 4th centuries AD.  
 
-There is several ways to get this figure. The Shadertoy user DjinnKahn created a shader that I was able to understand. It is based on a space "folding" function allowing to also draw the spheres on the corners of the Dodecahedron.
+There is several ways to get this figure. The Shadertoy user DjinnKahn created a shader that I was able to understand. It is based on a space "folding" function allowing to calculate the SDF of the Dodecahedron with exact distance as well as to draw the holes, and the spheres on the corners.
 
 Folding "folds" a whole range of coordinates in another one. This is called "folding" because at the end we have only manage a subset of cartesians coordinates. The "ABS" function for example makes disappears all negative values that get "folded" to positive values. Before the "folding" operation, it is interesting to get an id of the original domain, in order to create variations while still calculating the shapes only once.
 
@@ -83,7 +83,7 @@ References :
 - [Roman dodecahedron - Wikipedia](https://en.wikipedia.org/wiki/Roman_dodecahedron)
 - [Wythoff construction on Shadertoy](https://www.shadertoy.com/results?query=tag%3Dwythoff).
 - [icosahedronal symmetry - DjinnKahn](https://www.shadertoy.com/view/Mly3R3).
-- [Icosahedron Weave - DjinnKahn](https://www.shadertoy.com/view/Xty3Dy) of the same author is a gold mine, just have to dig !
+- [Icosahedron Weave - DjinnKahn](https://www.shadertoy.com/view/Xty3Dy)
 - [Day 19 - Virus - jeko](https://www.shadertoy.com/view/WlKGRW)
 - [Shader Coding: KIFS Fractals explained! - The Art of Code](https://youtu.be/il_Qg9AqQkE)
 - [triskel (255 chars) - FabriceNeyret2](https://www.shadertoy.com/view/XlVXRW)
