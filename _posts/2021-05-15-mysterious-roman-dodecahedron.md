@@ -15,11 +15,11 @@ Some people suggested it is a simple tool to make gloves because they are found 
 
 Gallo-Romans already know about the shape of the Dodecahedron ! 2000 years after, nothing changed, Shadertoy's users are fond of this figure
 
-There is several ways to get the SDF for a dodecahedron for Ray Marching. The Shadertoy user DjinnKahn created a shader that I was able to understand (so you probably will !). It is based on a space "folding".
+There is several ways to get the SDF for a dodecahedron for Ray Marching. The Shadertoy user DjinnKahn created a shader that I was able to understand (so probably you will as well !). It is based on a space "folding".
 
-Folding "folds" a whole range of coordinates in another one. This is called "folding" because at the end we have only manage a subset of cartesians coordinates. The "ABS" function for example makes disappears all negative values that get "folded" to positive values. Before the "folding" operation, it is interesting to get an id of the original domain, in order to create variations while still calculating the shapes only once.
+Folding "folds" a whole range of coordinates in another one. At the end we have only a subset of cartesians coordinates. The "ABS" function for example makes disappears all negative values that get "folded" to positive values. Before the "folding" operation, it is interesting to get an id of the original domain of the point, in order to create variations while still calculating the shapes only once.
 
-In 2D, If you expect to have an object with their "folded coordinates" out of the folding range of coordinates (for exemple an object with negative coordinates for an ABS value), obviously there is not a single chance to have it drawn. But if you take care to well position it he will be drawn many times !
+In 2D, If you expect to have an object with their "folded coordinates" out of the folded range of coordinates (for exemple an object with negative coordinates after an ABS), obviously there is not a single chance to have it drawn. But if you take care to well position it he will be drawn many times !
 
 In the DjinnKahn's shader, at the end the coordinates are bound between 3 **directions** from the origin.
 ```
@@ -33,9 +33,10 @@ By rotating the coordinates to be aligned with one of these directions, and the 
 DjinnKahn used this to get the exact distance to the edges and the faces of the icosahedron and the dodecahedron. He also managed to put some spheres over some well known positions.  
 
 In the code below, we move the point "radius" units along a direction, and rotate to have coordinates alignes with the polyhedron faces.
-- R3 is the rotation needed to align with a Icosahedron's face
-- R4 is the rotation needed to align with a Dodecahedron's face.
-It is noticable that this is an hollow figure as there is no "max" on the Z coordinate.
+- R3 is the rotation needed to align with Icosahedron's faces
+- R4 is the rotation needed to align with Dodecahedron's faces.
+
+It is noticable that this is an hollow figure as this is a sphere elongated in 2 directions covering the face.
 
 ```
 float GetDist(vec3 p) {
@@ -50,6 +51,11 @@ float GetDist(vec3 p) {
 ```
 
 I also managed to create shapes with x3 and X5 polar symetry respectiverly 20 around the icosahedron vectrices and 12 around the faces midpoint. It seems simple to create many stellations, and virus like shapes.
+
+<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/Nd3GWf?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>  
+
+<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/Ns3Gzs?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
+
 
 To understand better how folding works, there is a very nice video of The Art of Code about "folding" 2D space to draw a nice Koch fractal !
 
