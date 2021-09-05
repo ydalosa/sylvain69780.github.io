@@ -7,17 +7,19 @@ tags: shadertoy
 
 While visiting the Lugdunum Museum at Lyon (France) I was shocked !  
  
-![Lyon Roman dodecahedron](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Dod%C3%A9ca%C3%A8dre_romain_au_Mus%C3%A9e_gallo-romain_de_Fourvi%C3%A8re.jpg/195px-Dod%C3%A9ca%C3%A8dre_romain_au_Mus%C3%A9e_gallo-romain_de_Fourvi%C3%A8re.jpg)  
+![Lyon Roman dodecahedron](https://sylvain69780.github.io/assets/images/roman_dodecahedron.jpg)  
 
->A Roman dodecahedron or Gallo-Roman dodecahedron is a small hollow object made of copper alloy which has been cast into a regular dodecahedral shape: twelve flat pentagonal faces, each face having a circular hole of varying diameter in the middle, the holes connecting to the hollow center. Roman dodecahedra date from the 2nd to 4th centuries AD.  
+>A Roman dodecahedron or Gallo-Roman dodecahedron is a small hollow object 
+made of copper alloy which has been cast into a regular dodecahedral shape: 
+twelve flat pentagonal faces, each face having a circular hole of varying 
+diameter in the middle, the holes connecting to the hollow center. 
+Roman dodecahedra date from the 2nd to 4th centuries AD.  
 
 Some people suggested it is a simple tool to make gloves because they are found only on the north of Europe, I prefer to think it's a kind of mystic object. We will probably never know !
 
-Gallo-Romans already know about the shape of the Dodecahedron ! 2000 years after, nothing changed, Shadertoy's users are fond of this figure
+There is several ways to get the SDF for a dodecahedron for Ray Marching. The Shadertoy user DjinnKahn created a shader that I was able to understand (so probably you will as well !). It is based on space "folding".
 
-There is several ways to get the SDF for a dodecahedron for Ray Marching. The Shadertoy user DjinnKahn created a shader that I was able to understand (so probably you will as well !). It is based on a space "folding".
-
-Folding "folds" a whole range of coordinates in another one. At the end we have only a subset of cartesians coordinates. The "ABS" function for example makes disappears all negative values that get "folded" to positive values. Before the "folding" operation, it is interesting to get an id of the original domain of the point, in order to create variations while still calculating the shapes only once.
+Folding "folds" a whole range of coordinates in another one. At the end we have only a subset of cartesians coordinates. The "ABS" function for example makes disappears all negative values that get "folded" to positive values. Before the "folding" operation, it may be interesting to get an id of the original domain of the point, in order to create variations while still calculating the shapes only once.
 
 In 2D, If you expect to have an object with their "folded coordinates" out of the folded range of coordinates (for exemple an object with negative coordinates after an ABS), obviously there is not a single chance to have it drawn. But if you take care to well position it he will be drawn many times !
 
@@ -50,7 +52,7 @@ float GetDist(vec3 p) {
 }
 ```
 
-I also managed to create shapes with x3 and X5 polar symetry respectiverly 20 around the icosahedron vectrices and 12 around the faces midpoint. It seems simple to create many stellations, and virus like shapes.
+I also tried to create shapes with x3 and X5 polar symetry respectiverly 20 around the icosahedron vectrices and 12 around the faces midpoint. It seems simple to create many stellations, and virus like shapes.
 
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/Nd3GWf?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>  
 
@@ -71,5 +73,5 @@ References :
 - [Day 19 - Virus - jeko](https://www.shadertoy.com/view/WlKGRW)
 - [Shader Coding: KIFS Fractals explained! - The Art of Code](https://youtu.be/il_Qg9AqQkE)
 - [triskel (255 chars) - FabriceNeyret2](https://www.shadertoy.com/view/XlVXRW)
-- [Celtic knot 2 - FabriceNeyret2](https://www.shadertoy.com/view/XlVXRW)
-
+- [Celtic knot 2 - FabriceNeyret2](https://www.shadertoy.com/view/ld2BDy)
+- [IQ Distance functions](https://www.iquilezles.org/www/articles/distfunctions/distfunctions.htm)

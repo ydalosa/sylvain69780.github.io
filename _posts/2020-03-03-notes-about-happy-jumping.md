@@ -7,6 +7,8 @@ tags: shadertoy
 
 [About Gamma Correction](https://youtu.be/Cfe5UQ-1L9Q?t=2293)  
 
+[fast sky gradient - the sky will be blue !](https://youtu.be/Cfe5UQ-1L9Q?t=2795)
+
 [Work on Candy on the floor, domain repetition, colors, position shift to not align them on a grid](https://youtu.be/Cfe5UQ-1L9Q?t=12892)
 
 [Floor movement animation like a trampoline](https://youtu.be/Cfe5UQ-1L9Q?t=13183)
