@@ -5,7 +5,7 @@ tags: shadertoy
 ---
 # Mysterious Roman dodecahedron
 
-While visiting the Lugdunum Museum at Lyon (France) I was shocked !  
+While visiting the Lugdunum Museum at Lyon (France) I was shocked by a very strange artifact !  
  
 ![Lyon Roman dodecahedron](https://sylvain69780.github.io/assets/images/roman_dodecahedron.jpg)  
 
