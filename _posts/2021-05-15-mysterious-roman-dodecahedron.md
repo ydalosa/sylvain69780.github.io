@@ -54,15 +54,17 @@ float GetDist(vec3 p) {
 
 I also tried to create shapes with x3 and X5 polar symetry respectiverly 20 around the icosahedron vectrices and 12 around the faces midpoint. It seems simple to create many stellations, and virus like shapes.
 
-<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/Nd3GWf?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>  
+<iframe width="320" height="180" frameborder="0" src="https://www.shadertoy.com/embed/Nd3GWf?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>  
 
-<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/Ns3Gzs?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
+<iframe width="320" height="180" frameborder="0" src="https://www.shadertoy.com/embed/Ns3Gzs?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
 
 
 To understand better how folding works, there is a very nice video of The Art of Code about "folding" 2D space to draw a nice Koch fractal !
 
 I also noted some nice Celtic patterns done by Fabrice that may be used as a background.
 
+<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/Nsd3Wl?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>  
+  
 References :
 
 - [Roman dodecahedron - Wikipedia](https://en.wikipedia.org/wiki/Roman_dodecahedron)
