@@ -8,6 +8,6 @@ With you keyboard, your brain and a simple FOR loop in GLSL you can some make ar
 We draw two triangles forming a rectangle covering the whole screen.
 All the program logic is in the fragment shader that shades the pixels of these triangles ! 
 
-This seems totally crazy to me because these programs should be executed for every pixed on screen, they should be very optimized and compact. The ray marching algorithm is perfect for this. Let's read what Inigo is writing in this presentation, we can easylly imagine attendees quite surprised if they are coming from the industry.
+This seems totally crazy to me because these programs should be executed for every pixed on screen, they should be very optimized and compact. The ray marching algorithm is perfect for this. Let's read what Inigo is writing in this presentation, we can easylly imagine attendees quite surprised !
 
 [Rendering Worlds With Two Triangles](https://www.iquilezles.org/www/material/nvscene2008/rwwtt.pdf)

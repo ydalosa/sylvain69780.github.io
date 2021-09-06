@@ -24,5 +24,3 @@ Colors, Lighning, Motion all what our brain needs to understand what we are obse
 
 Hope these few lines may help to explain what we are doing here, and why we are spending an unreasonable time with it.
 
-What is cool is that in general, people stops to ask questions when the word "art" comes into play.
-

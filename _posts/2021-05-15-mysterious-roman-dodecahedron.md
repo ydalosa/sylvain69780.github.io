@@ -63,6 +63,8 @@ To understand better how folding works, there is a very nice video of The Art of
 
 I also noted some nice Celtic patterns done by Fabrice that may be used as a background.
 
+At the end, I published this shader and had a lot of fun reading the comments !  
+
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/Nsd3Wl?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>  
   
 References :
