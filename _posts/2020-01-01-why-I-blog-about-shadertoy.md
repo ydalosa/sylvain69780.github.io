@@ -3,7 +3,7 @@ layout: default
 title: "Why I felt the need to blog about Shadertoy"
 tags: shadertoy
 ---
-The initial idea of this blog is to references some usefull information I found concerning Shadertoy.
+The initial idea of this blog is to references some usefull information I found concerning graphic programming and Shadertoy.
 
 There is about 50 000 shaders published, and the code is accessible but seems like magic stuffs if you don't know the theory behind. My idea is to reference the ones that I studied in details or just noticed for later.
 

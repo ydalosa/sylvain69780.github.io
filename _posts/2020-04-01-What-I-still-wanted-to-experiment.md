@@ -22,4 +22,12 @@ I believe making shaders, and art in general, is like cooking, we try to impress
 * Have to learn about cell shading
 * To be continued.
 
-I want probably make another shader related more to geomery than modelling, especially methods for having more domain repetition methods. There is many topics possibles. Like this [Fibonacci mapping](https://dokumen.tips/reader/f/spherical-fibonacci-mapping-fibonacci-mapping-benjamin-keinert-1matthias-innmann)
+I want probably make another shader related more to geomery than modelling, especially methods for having more domain repetition methods. There is many topics possibles.  
+
+Inspiration quickly comes to me from my daily experiences.
+
+Some Ideas
+
+- [Fibonacci mapping](https://dokumen.tips/reader/f/spherical-fibonacci-mapping-fibonacci-mapping-benjamin-keinert-1matthias-innmann)
+- [Model a colorfull Pink Flame](https://desert-maroc.com/wordpress2012/wp-content/uploads/hoenicopterus-1024x878.jpg)
+
