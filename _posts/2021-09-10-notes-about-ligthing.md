@@ -25,19 +25,19 @@ Very flat and boring, may be needed in some situations to avoid totally black zo
 
 This is the simpliest of all, there is an use of the dot product between the surface normal and the light direction to get an intensity.
 
-Here the artistic work starts because we can paint the material with different light source colors.
+Here the artistic work starts because we can paint the material with different colors coming from light sources.
 
 - We can choose to have 3 lights sources to simulate an outdoor scene, with the sun as keylight, the sky as second light, and indirect light supposed to come from the reflexion of the sun light on the environment. Colors can be choosen accordingly. ( yellow, blue, green for example ) 
-- For an indoor scene, I saw examples of just a point light, positioned not far from the camera position.
+- For an indoor scene, I saw Shane's examples of just a point light, positioned not far from the camera position.
 
 Related references :
 - [Outdoors lighting - Inigo Quilez](https://www.iquilezles.org/www/articles/outdoorslighting/outdoorslighting.htm)
 
 # Occlusion
 
-This effect creates a very subtile but very important shadow signal.
-It is analyzed by our brain to understand the concavities of the object we are looking at.
-This is very fun to use procedural occulsion calculations in Shadertoy and see the results.
+This effect creates a very subtile shadow.
+It helps the viewer to understand the concavities of the object we are looking at.
+Procedural occulsion calculations are very frequent on Shadertoy, and this add a lot of details.
 
 Related references :
 - [Outdoors lighting - Inigo Quilez](https://www.iquilezles.org/www/articles/outdoorslighting/outdoorslighting.htm)
@@ -59,7 +59,7 @@ Question : how does it works ?
 
 >I did my own interpretation of specularity !
 
-Specularity is about reflexion, and you can choose what you are reflecting in your image (sky, sun, environment ...), giving many fun and nice effects.
+Specularity is about reflexion of the light on a surface, as "specular" means mirror.
 
 ```
     vec3  sun_hal = normalize( sun_lig-rd );
@@ -70,7 +70,9 @@ Just try to comment it in my Rocket Toy shader to see the difference.
 
 <iframe width="320" height="180" frameborder="0" src="https://www.shadertoy.com/embed/3dSBRG?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
 
+I very lately realized that this is a variation of the Blinn-Phong reflection model, with a bit of fresnel, and "hal" means "halfway vector". 
+
 Related references :
 - [IQ Video sequence about it is very short : 4:09](https://youtu.be/Cfe5UQ-1L9Q?t=14952)
-
-
+- [Why aren't Mirrors White? Why isn't EVERYTHING a Mirror? - The Science Asylum](https://youtu.be/1n_otIs6z6E)
+- [Blinn–Phong reflection model - Wikipedia](https://en.wikipedia.org/wiki/Blinn%E2%80%93Phong_reflection_model)

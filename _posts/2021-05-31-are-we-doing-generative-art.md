@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Are we doing Generative Art on Shadertoy ?"
+title: "Are graphic programmers doing Generative Art on Shadertoy ?"
 tags: shadertoy
 ---
 
@@ -10,7 +10,7 @@ tags: shadertoy
 
 >"Generative art" often refers to algorithmic art (algorithmically determined computer generated artwork)
 
-This is a very convenient explanation for non initiated audience of what we are doing here on Shadertoy.
+This is a very convenient explanation for non initiated audience of what people are doing here on Shadertoy.
 
 **This is art**, a very well known **addiction** about beauty.
 
@@ -22,5 +22,5 @@ It's beautyfull to understand how our vision is working and tells us information
 
 Colors, Lighning, Motion all what our brain needs to understand what we are observing on screen.
 
-Hope these few lines may help to explain what we are doing here, and why we are spending an unreasonable time with it.
+Hope these few lines may help to explain what people are doing here, and why they are spending an unreasonable time with it.
 
