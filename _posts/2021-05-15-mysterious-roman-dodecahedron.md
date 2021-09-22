@@ -74,6 +74,7 @@ References :
 - [Wythoff construction on Shadertoy](https://www.shadertoy.com/results?query=tag%3Dwythoff).
 - [icosahedronal symmetry - DjinnKahn](https://www.shadertoy.com/view/Mly3R3).
 - [Icosahedron Weave - DjinnKahn](https://www.shadertoy.com/view/Xty3Dy)
+- [Polyhedral Weave - Shane](https://www.shadertoy.com/view/MttczH)
 - [Day 19 - Virus - jeko](https://www.shadertoy.com/view/WlKGRW)
 - [Shader Coding: KIFS Fractals explained! - The Art of Code](https://youtu.be/il_Qg9AqQkE)
 - [triskel (255 chars) - FabriceNeyret2](https://www.shadertoy.com/view/XlVXRW)

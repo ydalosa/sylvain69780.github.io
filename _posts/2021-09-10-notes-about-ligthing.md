@@ -64,6 +64,9 @@ Specularity is about reflexion of the light on a surface, as "specular" means mi
 ```
     vec3  sun_hal = normalize( sun_lig-rd );
     float sun_spe = ks*pow(clamp(dot(nor,sun_hal),0.0,1.0),8.0)*sun_dif*(0.04+0.96*pow(clamp(1.0+dot(sun_hal,rd),0.0,1.0),5.0));
+
+    col += sun_spe*vec3(8.10,6.00,4.20)*sun_sha;
+
 ```
 
 Just try to comment it in my Rocket Toy shader to see the difference.  
