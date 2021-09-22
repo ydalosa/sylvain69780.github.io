@@ -79,3 +79,9 @@ Related references :
 - [IQ Video sequence about it is very short : 4:09](https://youtu.be/Cfe5UQ-1L9Q?t=14952)
 - [Why aren't Mirrors White? Why isn't EVERYTHING a Mirror? - The Science Asylum](https://youtu.be/1n_otIs6z6E)
 - [Blinn–Phong reflection model - Wikipedia](https://en.wikipedia.org/wiki/Blinn%E2%80%93Phong_reflection_model)
+
+# Other sources
+
+[Raymarch template GGX - darkeclipz](https://www.shadertoy.com/view/3tyyWm)
+[Specular highlight models  - darkeclipz](https://www.shadertoy.com/view/WtycWW)
+[Physically Based Shading at Disney](https://neil3d.github.io/assets/pdf/s2012_pbs_disney_brdf_notes_v3.pdf)
