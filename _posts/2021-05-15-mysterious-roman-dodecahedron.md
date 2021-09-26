@@ -80,3 +80,7 @@ References :
 - [triskel (255 chars) - FabriceNeyret2](https://www.shadertoy.com/view/XlVXRW)
 - [Celtic knot 2 - FabriceNeyret2](https://www.shadertoy.com/view/ld2BDy)
 - [IQ Distance functions](https://www.iquilezles.org/www/articles/distfunctions/distfunctions.htm)
+- [Pourquoi on ne Sait Rien de Cet Objet ? (en360s) - French - Poisson Fécond](https://youtu.be/JUcOBNReH2c)
+- [FOLD & CUT - A Thesis - MICHAEL WILLIAM GIOFFREDI](https://core.ac.uk/download/pdf/154406344.pdf)
+- [Kaleidoscopic (escape time) IFS - knighty](http://www.fractalforums.com/sierpinski-gasket/kaleidoscopic-(escape-time-ifs)/)
+- [Polyhedras with control - Knighty](https://www.shadertoy.com/view/MsKGzw)
