@@ -35,7 +35,7 @@ float GetDist(vec3 p) {
 
 The explanation of this magic needs first to understand the Wythoff construction, a method to generate the verticies of many polyhedrons from a tiling of the unit sphere with identical spherical triangles (triangles that are not drawn on a plane but on a sphere).
 
-First thing important is that we can only tile the sphere with triangles having angles that are fractions of PI. Let say PI/2 , PI/3, PI/5. Ah ah and the trick is if you add these angles you get (15+10+6)/30 = 31/30 of PI, that is impossible on a plan triangle if you remember your elementary school courses, but possible on a spherical triangle ! You learnt that the sum of the angles of a triangle can't be greater than 180 degres. This is only true on a plan !
+First thing important is that we can only tile the sphere with triangles having angles that are fractions of PI. Let say PI/2 , PI/3, PI/5. Ah ah and the trick is if you add these angles you get (15+10+6)/30 = 31/30 of PI, that is impossible on a plan triangle if you remember your elementary school courses, but possible (and needed) on a spherical triangle ! You learnt that the sum of the angles of a triangle can't be greater than 180 degres. This is only true on a plan !
 
 <iframe width="320" height="180" frameborder="0" src="https://www.shadertoy.com/embed/NsdXRr?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
 
@@ -60,14 +60,14 @@ nc.z = sqrt(1 - nc.x<sup>2</sup> - nc.y<sup>2</sup>)
 nc.z = sqrt(0.75 - cospin * cospin )  
 ```
 
-This explains mainly the calculation below. I just missed something abouth the sign, probably adjusted to have the folding to work properly.
+This explains mainly the calculation below. I just missed something abouth the sign, probably it is adjusted to have the folding to work properly.
 
 ```
     float c = cos(3.1415/5.), s=sqrt(0.75-c*c);
     vec3 n = vec3(-0.5, -c, s);
 ```
 
-# Why this generates at the end this nice Gem stone ?
+# Why this generates a nice Gem stone at the end ?
 
 It appears that the sphere is tiled with triangles that are, assembled 4 by 4, forming a rhombus around the P/2 angle. 
 - These 4 triangles are coplanars because sharing a same corner around the Z axis.
@@ -75,7 +75,9 @@ It appears that the sphere is tiled with triangles that are, assembled 4 by 4, f
 
 # How to get exact distance to this Gem Stone ?
 
-Many comments are about the fact that this distance function generates sharp edges, causing some aliasing issues. In order to get an exact distance, it seems suffisent to get a distance to the edges to add it to the "GetDist" distance estimation function.
+Many comments are about the fact that this distance function generates sharp edges.
+This is caused by the fact that the distance estimation is not exact near the edges, and it prevents to get soft edges by substracting a distance. The trick used by Bigwings was to just tweek the normal calculation function.
+In order to get an exact distance, it seems suffisent to get a distance to the edges to add it to the "GetDist" distance estimation function.
 
 This edge is the line connecting the intersection points of the c plan with the x and y axis.
 
