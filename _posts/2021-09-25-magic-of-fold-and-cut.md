@@ -41,10 +41,12 @@ First thing important is that we can only tile the sphere with triangles having 
 
 Now the way to define our triangle if to get 3 plans that intersect at the origin, and having their dihedral angle between them equal to the angles of the triangle. Let's say PI/2 , PI/3, PI/5.
 
-We can easyly find 2 plans a and b that have a dihedral angle of PI/2, the xz and yz plans, making the folding operation on these plans a simple ABS(p.xy). In oder to get the third plan c, we need. Saying na, nb, nc are the normals to the plans a, b, c.
+We can easily find 2 plans a and b that have a dihedral angle of PI/2, the xz and yz plans, making the folding operation on these plans a simple ABS(p.xy). Saying na, nb, nc are the normals to the plans a, b, c, in oder to get the third plan c, we need, nc as follows.
 
+```
 cos(PI/3) = 0.5 = dot(na,nc)
 cos(PI/5) = cospin = dot(nb,nc)
+```
 
 As na = vec3(1,0,0) and nb = vec3(0,1,0) we get
 nc.x = 0.5
@@ -52,9 +54,11 @@ nc.y = cos(PI/5)
 
 We want to also the length of this normal to be 1, so 
 
+```
 nc.x<sup>2</sup> + nc.y<sup>2</sup> + nc.z<sup>2</sup> = 1  
 nc.z = sqrt(1 - nc.x<sup>2</sup> - nc.y<sup>2</sup>)  
 nc.z = sqrt(0.75 - cospin * cospin )  
+```
 
 This explains mainly the calculation below. I just missed something abouth the sign, probably adjusted to have the folding to work properly.
 
@@ -75,19 +79,11 @@ Many comments are about the fact that this distance function generates sharp edg
 
 This edge is the line connecting the intersection points of the c plan with the x and y axis.
 
-The equation of the plan is 
-- n.x*x + n.y*y + n.z*z = 0
-
-For z = h, this gives
-- n.y*p0.y + n.z*h = 0
-- p0.y = - n.z*h/n.y
-- P1.x = n.z*h/n.x
-
+Using Desmos I found the coordinates of the intersection points, and the equation to find the position of the edge.
 
 <iframe src="https://www.desmos.com/calculator/qb6yvprhv1?embed" width="320" height="180" style="border: 1px solid #ccc" frameborder=0></iframe>
 
 By adding these lines in the distance estimation function, we can get soft edges for the Rhomic Triaconthadedron.
-
 
 ```
 float sdCapsule( vec3 p, vec3 a, vec3 b, float r )
