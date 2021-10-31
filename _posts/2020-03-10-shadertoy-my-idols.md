@@ -31,3 +31,10 @@ Below some noticable contributors
 >A lot of advice to take ! 
 >[web](http://evasion.imag.fr/~Fabrice.Neyret/demos/Shadertoy/) 
 >[Shadertoy](https://www.shadertoy.com/user/FabriceNeyret2)
+
+Other smart people I would be happy to met
+
+# JOS LEYS
+CNRS is the French public organism about science.  
+A lot of smart and interesting people works here.
+- [JOS LEYS - Mathematical Imagery](https://images.math.cnrs.fr/_Leys-Jos_.html)

@@ -70,8 +70,8 @@ This explains mainly the calculation below. I just missed something abouth the s
 # Why this generates a nice Gem stone at the end ?
 
 It appears that the sphere is tiled with triangles that are, assembled 4 by 4, forming a rhombus around the P/2 angle. 
-- These 4 triangles are coplanars because sharing a same corner around the Z axis.
-- Other questions comes, like why can't I find any mention of this on Internet ? Would be happy to have more references to put below.
+- These 4 triangles are coplanar because sharing a same corner around the Z axis.
+- Other questions comes, like why can't I find any mention of this construction to get the Rhombic triacontahedron on Internet ? Would be happy to have more references to put below.
 
 # How to get exact distance to this Gem Stone ?
 
@@ -112,4 +112,7 @@ float sdCapsule( vec3 p, vec3 a, vec3 b, float r )
 - [Polyhedron again - knighty](https://www.shadertoy.com/view/XlX3zB)
 - [Polyhedrons, many many polyhedrons... - Fractalforums](https://www.fractalforums.com/fragmentarium/solids-many-many-solids/30/)
 - [Wythoff Mathematical Details - Greg Egan](http://www.gregegan.net/APPLETS/26/WythoffNotes.html)
-
+- [heavy metal squiggle orb - mattz](https://www.shadertoy.com/view/wsGfD3)
+- [UN BALLON DE FOOT FRACTAL ... et d’autres objets étranges - Jos Leys](https://images.math.cnrs.fr/Un-ballon-de-foot-fractal.html?lang=es&id_forum=5490)
+- [Wythoff Polyhedra with Exact SDF - mla](https://www.shadertoy.com/view/WlccR8)
+- [silver tilings - flockaroo](https://www.shadertoy.com/view/XsXfz2)
