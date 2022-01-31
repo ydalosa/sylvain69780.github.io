@@ -55,8 +55,8 @@ nc.y = cos(PI/5)
 We want to also the length of this normal to be 1, so 
 
 ```
-nc.x<sup>2</sup> + nc.y<sup>2</sup> + nc.z<sup>2</sup> = 1  
-nc.z = sqrt(1 - nc.x<sup>2</sup> - nc.y<sup>2</sup>)  
+nc.x² + nc.y² + nc.z² = 1  
+nc.z = sqrt(1 - nc.x² - nc.y²)  
 nc.z = sqrt(0.75 - cospin * cospin )  
 ```
 
@@ -107,6 +107,10 @@ float sdCapsule( vec3 p, vec3 a, vec3 b, float r )
 
 # Related References
 
+Mattz's shader "Wythoff explorer" is a pure gem. 
+If you look carfully to the comments and the graphical interface, it explains all about the Wythoff construction.
+
+- [Wythoff explorer - mattz](https://www.shadertoy.com/view/Md3yRB)  
 - [Live Coding:Bending Light - The Art of Code](https://www.youtube.com/watch?v=NCpaaLkmXI8)
 - [Shader Coding: KIFS Fractals explained! - The Art of Code](https://youtu.be/il_Qg9AqQkE)
 - [Polyhedron again - knighty](https://www.shadertoy.com/view/XlX3zB)

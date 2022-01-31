@@ -13,9 +13,6 @@ The lighting topic is huge, hopefully this will help you to find some usefull in
 
 Don't take it too seriously, just pick up some nice ideas for your next shader !
 
-Related references :
-- [Outdoors lighting - Inigo Quilez](https://www.iquilezles.org/www/articles/outdoorslighting/outdoorslighting.htm)
-
 # Ambiant lighing
 
 It's just a color the material has assigned when there is no lighting at all.
@@ -42,11 +39,13 @@ Procedural occulsion calculations are very frequent on Shadertoy, and this add a
 Related references :
 - [Outdoors lighting - Inigo Quilez](https://www.iquilezles.org/www/articles/outdoorslighting/outdoorslighting.htm)
 
-# Fake IBL
+# Blackle knowledge : Fake IBL etc
 
-This is a fast way I found to create a metal like effect.
+I found with Blackle awesome work a lot of nice ideas and tricks used for live coding.
 
 <iframe width="320" height="180" frameborder="0" src="https://www.shadertoy.com/embed/tlscDB?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
+
+<iframe width="320" height="180" frameborder="0" src="https://www.shadertoy.com/embed/ttGfz1?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
 
 Related references :
 - [blackle's fake ibl](https://www.twitch.tv/videos/590616102)

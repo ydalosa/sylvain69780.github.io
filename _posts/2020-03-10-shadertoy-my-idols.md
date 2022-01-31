@@ -3,6 +3,11 @@ layout: default
 title: "Notes about Shadertoy contributors"
 tags: shadertoy
 ---
+IQ's blog is very well known for the Shadertoy's users, but it is also interesting to look of the page of this associate in the creation of Shadertoy.
+[Pol Jeremias Vila](http://www.poljeremias.com/#about)
+
+Shadertoy has been designed from the origin as a social media that enables **graphics enthusiasts** to create and share computer graphics knowledge.
+
 Mainly the spirit of Shadertoy is closely related to the **demoscene**. Looking at Wikipedia you will have a good explanation of what it is. 
 
 Below some noticable contributors
