@@ -71,11 +71,17 @@ the dot product simplifies to
 
 The Wikipedia page about the [Rhombic dodecahedron](https://en.wikipedia.org/wiki/Rhombic_dodecahedron) mention that **arccos(1/3)** is the acute angles on each face. The explanation is in the Stewart Coffin's book **The Puzzling World of Polyhedral Dissections**.
 
-The French version says that it's value is **2*arctan(1/√2)** and it appears that this is the same value. I would be happy to have the explanation of this equivalence. [Wolfram's calculation confirmation](https://www.wolframalpha.com/input/?i=2*arctan%281%2F%E2%88%9A2%29-arccos%281%2F3%29)
+The French version says that it's value is **2*arctan(1/√2)** and it appears that this is the same value. [Wolfram's calculation confirmation](https://www.wolframalpha.com/input/?i=2*arctan%281%2F%E2%88%9A2%29-arccos%281%2F3%29)
 
 ```
 2*arctan(1/√2)-arccos(1/3) = 0
 ```
+[Fonction circulaire réciproque - Wikipedia](https://fr.wikipedia.org/wiki/Fonction_circulaire_r%C3%A9ciproque)
+[Tangent half-angle formula - Wikipedia](https://en.wikipedia.org/wiki/Tangent_half-angle_formula)
+
+This is related to the tan of the half arc formula.
+acos(x) = 2*atan(sqrt(1-x*x)/(1+x)) 
+acos(1/3) = 2*atan(sqrt(8/9)/(4/3) = 2*atan( (sqrt(2)*2/3)/(4/3) )) = 2*atan(1/sqrt(2)) 
 
 ![preview](https://johnrausch.com/PuzzlingWorld/images/fig093.gif)
 <br/><br/>
