@@ -33,11 +33,11 @@ float GetDist(vec3 p) {
 }
 ```
 
-The explanation of this magic needs first to understand the Wythoff construction, a method to generate the verticies of many polyhedrons from a tiling of the unit sphere with identical spherical triangles (triangles that are not drawn on a plane but on a sphere).
+The magic is related to the Wythoff construction, a method to generate the verticies of many polyhedrons from a tiling of the unit sphere with identical spherical triangles (triangles that are not drawn on a plane but on a sphere).
 
-First thing important is that we can only tile the sphere with triangles having angles that are fractions of PI. Let say PI/2 , PI/3, PI/5. Ah ah and the trick is if you add these angles you get (15+10+6)/30 = 31/30 of PI, that is impossible on a plan triangle if you remember your elementary school courses, but possible (and needed) on a spherical triangle ! You learnt that the sum of the angles of a triangle can't be greater than 180 degres. This is only true on a plan !
+The sphere can only be tiled with triangles having angles that are fractions of PI. Let say PI/2 , PI/3, PI/5. Ah ah and the trick is if you add these angles you get (15+10+6)/30 = 31/30 of PI, that is impossible on a plan triangle if you remember your elementary school courses, but possible (and needed) on a spherical triangle ! You learnt that the sum of the angles of a triangle can't be greater than 180 degres. This is only true on a plan !
 
-<iframe width="320" height="180" frameborder="0" src="https://www.shadertoy.com/embed/NsdXRr?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
+<iframe width="320" height="180" frameborder="0" src="https://www.shadertoy.com/embed/NsdXRr?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>  
 
 Now the way to define our triangle if to get 3 plans that intersect at the origin, and having their dihedral angle between them equal to the angles of the triangle. Let's say PI/2 , PI/3, PI/5.
 
@@ -107,7 +107,8 @@ float sdCapsule( vec3 p, vec3 a, vec3 b, float r )
 
 # Related References
 
-Mattz's shader "Wythoff explorer" is a pure gem. 
+Mattz's shader "Wythoff explorer" is a pure gem.  
+
 If you look carfully to the comments and the graphical interface, it explains all about the Wythoff construction.
 
 - [Wythoff explorer - mattz](https://www.shadertoy.com/view/Md3yRB)  
