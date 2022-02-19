@@ -2,7 +2,7 @@
 layout: default
 ---
 # About
-## About me
+## Why this blog ?
 
 The purpose of this blog is essentially for me to learn the Github page Markdown language, and the use of [Jekyll](https://jekyllrb.com/docs/posts/) in order to posts some simple articles.
 
