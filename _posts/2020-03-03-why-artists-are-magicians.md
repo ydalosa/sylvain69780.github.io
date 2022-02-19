@@ -13,7 +13,7 @@ The artist concentrated all his effort to created a reallistic image, and at the
 
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/4s3XD2?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>  
 
-This is sometimes used by predators to hunt their prey.
+This is sometimes used by predators to hunt their prey (see references !).
 
 Related references :
 

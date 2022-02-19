@@ -20,6 +20,9 @@ And in fact I discovered more than I expected !
 {% endfor %}
 
 * I (re)discovered the **demoscene** and their community very active on Shadertoy.
-* I **discovered** with Shadertoy **the ray marching** algorithm that allows to build real time realistic 3D scenes "without any Maya or Blender or something", just your keyboard, some calculations on a paper sheet and knownlege of how to make a "for" loop. 
-* My vision is that this site started from the very generous idea of **"Create and Share your best shaders with the world and find Inspiration"**. It's a place to watch small pieces of **GLSL** code generating awesome images. It's so rare today to find people driven only by their passion.
+* I **discovered** with Shadertoy **the ray marching** algorithm that allows to build real time realistic 3D scenes "without any Maya or Blender or something", just your keyboard, some calculations on a paper sheet and knownlege of how to make a "for" loop.  
+
+Shadertoy has been designed from the origin as a social media that enables **graphics enthusiasts** to create and share computer graphics knowledge.  
+
+[Pol Jeremias Vila](http://www.poljeremias.com/#about)
 
