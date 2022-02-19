@@ -13,8 +13,6 @@ I have the chance to own a "scorpius slider spider puzzle", a piece of wood art 
 
 I learnt reading [Philippe Cichon's blog](https://puzzles-et-casse-tete.blog4ever.com/le-scorpius-1) that it's a rare puzzle, very few makers exists.
 
-The shape is very cool and I tried to reproduce it on Shadertoy. For this I needed to understand the geometry in place here, with only my elementary knowledge. 
-
 This video of Philippe Cichon shows how to mount and unmout it (in French)  
 [Le Scorpius on Youtube](https://www.youtube.com/watch?time_continue=13&v=2orJ6rTSx2s&feature=emb_logo)
 
@@ -36,7 +34,7 @@ The Wikipedia page about the [Rhombic dodecahedron](https://en.wikipedia.org/wik
 |---|---|---|---|
 |rdan|70,5°| the acute angles on each face of the rhombic dodecahedron|acos(1/3)|
   
-The French version of Wikipedia give a different expression for it : **2*arctan(1/√2)** ,it appears that this is the same value.
+The French version of Wikipedia give a different expression for it : **2*arctan(1/√2)** ,it appears that this is the same value !
 
 This is related to the tan of the half arc formula.  
 
@@ -45,24 +43,27 @@ This is related to the tan of the half arc formula.
 
 ```
 acos(x) = 2*atan(sqrt(1-x*x)/(1+x))  
-
+// Applied with x = 1/3
 acos(1/3) = 2*atan(sqrt(8/9)/(4/3)  
 = 2*atan( (sqrt(2)*2/3)/(4/3) ))   
 = 2*atan(1/sqrt(2))   
 ```
 
-## About trigonometry
+## Optimisation and trigonometry functions
 
-These articles of IQ about using vectors operations (dot and cross products) instead of trigonometry function interested me. 
+These articles of IQ about using vectors operations (dot and cross products) instead of trigonometry function interested me.  
 In order to convince developers that are not sensible to performance, it is said that some Kitten may be killed.
 
 This one to make you know the relation between cos and dot product and sin and cross product.
 
 [Inigo Quilez   ::   articles  ::   avoiding trigonometry - 2013](https://iquilezles.org/www/articles/noacos/noacos.htm)  
 
-This one to make you understand the formulas  
->sin(α+β)=sin α ⋅ cos β + cos α ⋅ sin β
->cos(α+β)=cos α ⋅ cos β - sin α ⋅ sin β
+This one to make you understand the formulas   
+
+```
+sin(α + β)=sin(α) * cos(β) + cos(α) * sin(β)
+cos(α + β)=cos(α) * cos(β) - sin(α) * sin(β)
+```
 
 [Inigo Quilez   ::   articles  ::   a sin/cos trick - 2010](https://iquilezles.org/www/articles/sincos/sincos.htm)  
 

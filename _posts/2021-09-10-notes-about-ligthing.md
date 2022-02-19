@@ -3,16 +3,6 @@ layout: default
 title: "Notes about ligthing"
 tags: shadertoy
 ---
-# Some notes for nice ligthing effects
-
-Again, I'am not a professional graphic programmer, the goal here is to have fun !
-
-Ray marching is fun, and allows to use the signed distance function of the scene for many nice lighing effects. 
-
-The lighting topic is huge, hopefully this will help you to find some usefull information in the links I profide here.
-
-Don't take it too seriously, just pick up some nice ideas for your next shader !
-
 # Ambiant lighing
 
 It's just a color the material has assigned when there is no lighting at all.
@@ -33,15 +23,12 @@ Related references :
 # Occlusion
 
 This effect creates a very subtile shadow.
-It helps the viewer to understand the concavities of the object we are looking at.
+This helps to understand the concavities of the object we are looking at.
 Procedural occulsion calculations are very frequent on Shadertoy, and this add a lot of details.
-
-Related references :
-- [Outdoors lighting - Inigo Quilez](https://www.iquilezles.org/www/articles/outdoorslighting/outdoorslighting.htm)
 
 # Blackle knowledge : Fake IBL etc
 
-I found with Blackle awesome work a lot of nice ideas and tricks used for live coding.
+I found with Blackle awesome work a lot of nice ideas and tricks she used for live coding.
 
 <iframe width="320" height="180" frameborder="0" src="https://www.shadertoy.com/embed/tlscDB?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
 
@@ -63,9 +50,7 @@ Specularity is about reflexion of the light on a surface, as "specular" means mi
 ```
     vec3  sun_hal = normalize( sun_lig-rd );
     float sun_spe = ks*pow(clamp(dot(nor,sun_hal),0.0,1.0),8.0)*sun_dif*(0.04+0.96*pow(clamp(1.0+dot(sun_hal,rd),0.0,1.0),5.0));
-
     col += sun_spe*vec3(8.10,6.00,4.20)*sun_sha;
-
 ```
 
 Just try to comment it in my Rocket Toy shader to see the difference.  
