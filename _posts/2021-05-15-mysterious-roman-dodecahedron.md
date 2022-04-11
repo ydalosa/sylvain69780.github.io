@@ -84,3 +84,4 @@ References :
 - [FOLD & CUT - A Thesis - MICHAEL WILLIAM GIOFFREDI](https://core.ac.uk/download/pdf/154406344.pdf)
 - [Kaleidoscopic (escape time) IFS - knighty](http://www.fractalforums.com/sierpinski-gasket/kaleidoscopic-(escape-time-ifs)/)
 - [Polyhedras with control - Knighty](https://www.shadertoy.com/view/MsKGzw)
+- [Satanic Torture Ball ](https://www.shadertoy.com/view/3dffDS)

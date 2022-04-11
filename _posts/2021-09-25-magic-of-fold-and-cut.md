@@ -3,7 +3,7 @@ layout: default
 title: "Magic of Fold and Cut"
 tags: shadertoy
 ---
-# Mystery of the Rhombic Triacontahedron
+# Magic of Fold and Cut
 
 In june 2021, I was watching a awesome video of "The Art of Code on youtube" about light relecting and refracting on a gem stone.  
 
