@@ -39,7 +39,7 @@ The sphere can only be tiled with triangles having angles that are fractions of 
 
 <iframe width="320" height="180" frameborder="0" src="https://www.shadertoy.com/embed/NsdXRr?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>  
 
-Now the way to define our triangle if to get 3 plans that intersect at the origin, and having their dihedral angle between them equal to the angles of the triangle. Let's say PI/2 , PI/3, PI/5.
+Now the way to define our triangle is to get 3 plans that intersect at the origin, and having their dihedral angle equal to the angles of the triangle. Let's say PI/2 , PI/3, PI/5.
 
 We can easily find 2 plans a and b that have a dihedral angle of PI/2, the xz and yz plans, making the folding operation on these plans a simple ABS(p.xy). Saying na, nb, nc are the normals to the plans a, b, c, in oder to get the third plan c, we need, nc as follows.
 
