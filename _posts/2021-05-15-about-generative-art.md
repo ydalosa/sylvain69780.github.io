@@ -18,13 +18,13 @@ Polyèdres, Pavages, Tracé de rayon, Eclairage, Fractales, [Preuve sans mots](h
 
 Voilà l'univers du Generative art, avec ses professionels et ses amateurs comme moi.
 
-# Relevez le Challenge !
+# Relevez le Geek Art Challenge (accessible aux débutants !)
 
 Je vous lance donc un défi artistique !  
 
 Vous pourrez découvrir une communauté méconnue, réunie autour de Inigo Quilez, createur du site Shadertoy. 
 
-Modifiez les valeures numeriques dans le code [ici](https://www.shadertoy.com/view/7ls3D4) en suivant les instructions en commentaire. L'image animée qui s'affiche en aperçu est entièrement générée par le code du volet de droite ! 
+Modifiez les valeures numeriques dans le code **[ici](https://www.shadertoy.com/view/7ls3D4)** en suivant les instructions en commentaire. L'image animée qui s'affiche en aperçu est entièrement générée par le code du volet de droite ! 
 
 >Astuce : ALT+ENTREE ou la flèche en bas pour compiler et voir le résultat
 
