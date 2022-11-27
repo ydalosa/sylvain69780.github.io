@@ -26,9 +26,18 @@ I learnt reading [Philippe Cichon's blog](https://puzzles-et-casse-tete.blog4eve
 This video of Philippe Cichon shows how to mount and unmout it (in French)  
 [Le Scorpius on Youtube](https://www.youtube.com/watch?time_continue=13&v=2orJ6rTSx2s&feature=emb_logo)
 
-## Calculation of the angle between each piece
+## How it looks after modeling it with Shadertoy
 
-I was very intrigued by the angle needed to fit four pieces together.  
+<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/Nlf3W2?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>  
+
+## Is it possible to use polar domain repetition ?
+
+Using the Ray marching algorithm, domain repetition enables to compute a shape only once by defining repetition domains, like a grid for example.   
+Because in the animation just shown before, this is not applicable easyly, and the rendering is very slow because each of the 24 pieces are evaluated for distance estimation.
+
+## The difficulties of this 3D modeling
+
+I was very intrigued by the angle needed to connect four pieces together (first step in the resolution of the puzzle).  
 Refering to the article on [Philippe Cichon's blog (French)](https://puzzles-et-casse-tete.blog4ever.com/le-scorpius-1), this angle is 70 degres, but why this value ?  
 
 The explanation is in the design of this puzzle, mentioned in the Stewart Coffin's book **The Puzzling World of Polyhedral Dissections**.
@@ -126,16 +135,6 @@ Details of the calculations using Desmos.
 <iframe src="https://www.desmos.com/calculator/jjntvihj13?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>  
 
 ![preview](https://sylvain69780.github.io/assets/images/scorpius_puzzle.svg)  
-
-Verification of the calculations using Shadertoy.  
-Seems it works !  
-
-<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/Nlf3W2?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>  
-
-## Is it possible to use polar domain repetition ?
-
-Using the Ray marching algorithm, domain repetition enables to compute a shape only once by defining repetition domains, like a grid for example.   
-Because in the animation just shown before, this is not applicable easyly, and the rendering is very slow because each of the 24 pieces are evaluated for distance estimation.
 
 ## About The Puzzling World of Polyhedral Dissections
 
