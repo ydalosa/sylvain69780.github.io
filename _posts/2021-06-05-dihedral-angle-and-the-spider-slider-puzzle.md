@@ -49,6 +49,8 @@ This [sentence](https://johnrausch.com/PuzzlingWorld/chap08.htm) of the book exp
 
 The Wikipedia page about the [Rhombic dodecahedron](https://en.wikipedia.org/wiki/Rhombic_dodecahedron) mention that $$\arccos(\frac{1}{3})$$ is the acute angles on each face. 
 
+As the pieces are placed on the faces or an inner rhombic dodecahedron, this explains why they are oriented this way.
+
 |symbol|value|explanation|calculation|
 |---|---|---|---|
 |rdan|70,5°| the acute angles on each face of the rhombic dodecahedron|$$\arccos(\frac{1}{3})$$|
