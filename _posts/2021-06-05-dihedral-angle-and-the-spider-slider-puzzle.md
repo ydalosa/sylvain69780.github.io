@@ -28,7 +28,7 @@ The explanation is in the design of this puzzle, mentioned in the Stewart Coffin
 This [sentence](https://johnrausch.com/PuzzlingWorld/chap08.htm) of the book explains all the mystery.  
 >The rhombic dodecahedron can be totally enclosed by a symmetrical cluster of 12 sticks having equilateral-triangular cross-section.  
 
-The Wikipedia page about the [Rhombic dodecahedron](https://en.wikipedia.org/wiki/Rhombic_dodecahedron) mention that **$\arccos{frac{1}{3}}** is the acute angles on each face. 
+The Wikipedia page about the [Rhombic dodecahedron](https://en.wikipedia.org/wiki/Rhombic_dodecahedron) mention that $\arccos{\frac{1}{3}}$ is the acute angles on each face. 
 
 |symbol|value|explanation|calculation|
 |---|---|---|---|
