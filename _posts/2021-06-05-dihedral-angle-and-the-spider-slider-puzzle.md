@@ -28,26 +28,28 @@ The explanation is in the design of this puzzle, mentioned in the Stewart Coffin
 This [sentence](https://johnrausch.com/PuzzlingWorld/chap08.htm) of the book explains all the mystery.  
 >The rhombic dodecahedron can be totally enclosed by a symmetrical cluster of 12 sticks having equilateral-triangular cross-section.  
 
-The Wikipedia page about the [Rhombic dodecahedron](https://en.wikipedia.org/wiki/Rhombic_dodecahedron) mention that $$\arccos{\frac{1}{3}}$$ is the acute angles on each face. 
+The Wikipedia page about the [Rhombic dodecahedron](https://en.wikipedia.org/wiki/Rhombic_dodecahedron) mention that $$\arccos(\frac{1}{3})$$ is the acute angles on each face. 
 
 |symbol|value|explanation|calculation|
 |---|---|---|---|
-|rdan|70,5°| the acute angles on each face of the rhombic dodecahedron|$$\arccos{\frac{1}{3}}$$|
+|rdan|70,5°| the acute angles on each face of the rhombic dodecahedron|$$\arccos(\frac{1}{3})$$|
   
-The French version of Wikipedia give a different expression for it : **$$2*\arctan{\frac{1}{\sqrt{2}}}$$** ,it appears that this is the same value !
+The French version of Wikipedia give a different expression for it : **$$2\times\arctan{\frac{1}{\sqrt{2}}}$$** ,it appears that this is the same value !
 
 This is related to the tan of the half arc formula.  
 
 [Fonction circulaire réciproque - Wikipedia](https://fr.wikipedia.org/wiki/Fonction_circulaire_r%C3%A9ciproque)  
 [Tangent half-angle formula - Wikipedia](https://en.wikipedia.org/wiki/Tangent_half-angle_formula)  
 
-```
-acos(x) = 2*atan(sqrt(1-x*x)/(1+x))  
-// Applied with x = 1/3
-acos(1/3) = 2*atan(sqrt(8/9)/(4/3)  
-= 2*atan( (sqrt(2)*2/3)/(4/3) ))   
-= 2*atan(1/sqrt(2))   
-```
+$$\arccos(x) = 2\times\arctan(\frac{\sqrt{1-x^2}}{1+x})$$  
+
+Applied with $$x = \frac{1}{3}$$  
+
+$$\arccos(\frac{1}{3}) = 2\times\arctan(\frac{\sqrt{\frac{8}{9}}}{\frac{4}{3}}) \\
+= 2\times\arctan(\frac{\sqrt{2}\times\frac{2}{3}}{\frac{4}{3}})
+= 2\times\arctan(\frac{1}{\sqrt{2}})
+$$  
+
 
 ## Optimisation and trigonometry functions
 
