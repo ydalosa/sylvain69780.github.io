@@ -28,13 +28,13 @@ The explanation is in the design of this puzzle, mentioned in the Stewart Coffin
 This [sentence](https://johnrausch.com/PuzzlingWorld/chap08.htm) of the book explains all the mystery.  
 >The rhombic dodecahedron can be totally enclosed by a symmetrical cluster of 12 sticks having equilateral-triangular cross-section.  
 
-The Wikipedia page about the [Rhombic dodecahedron](https://en.wikipedia.org/wiki/Rhombic_dodecahedron) mention that $$\forall x \in R$$ $$\arccos{\frac{1}{3}}$$ is the acute angles on each face. 
+The Wikipedia page about the [Rhombic dodecahedron](https://en.wikipedia.org/wiki/Rhombic_dodecahedron) mention that $$\arccos{\frac{1}{3}}$$ is the acute angles on each face. 
 
 |symbol|value|explanation|calculation|
 |---|---|---|---|
-|rdan|70,5°| the acute angles on each face of the rhombic dodecahedron|acos(1/3)|
+|rdan|70,5°| the acute angles on each face of the rhombic dodecahedron|$$\arccos{\frac{1}{3}}$$|
   
-The French version of Wikipedia give a different expression for it : **2*arctan(1/√2)** ,it appears that this is the same value !
+The French version of Wikipedia give a different expression for it : **$$2*\arctan{\frac{1}{\sqrt{2}}}$$** ,it appears that this is the same value !
 
 This is related to the tan of the half arc formula.  
 
