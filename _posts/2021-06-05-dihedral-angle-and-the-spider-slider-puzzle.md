@@ -154,3 +154,5 @@ The Stewart Coffin's book **The Puzzling World of Polyhedral Dissections** has b
 Reference : [The Coding Train : 18.7: Loading OBJ Model - WebGL and p5.js Tutorial](https://youtu.be/FUI7HEEz9B0)  
 
 <iframe  width="640" height="360" frameborder="0" src="https://preview.p5js.org/sylvain69780/embed/rCCoddv44"></iframe>  
+<script src=”https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id=”MathJax-script” async src=”https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
