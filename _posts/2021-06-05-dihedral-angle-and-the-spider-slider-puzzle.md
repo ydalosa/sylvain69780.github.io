@@ -28,7 +28,7 @@ This video of Philippe Cichon shows how to mount and unmout it (in French)
 
 ## How it looks after modeling it with Shadertoy
 
-<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/Nlf3W2?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>  
+<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/Nlf3W2?gui=true&t=0&paused=true&muted=false" allowfullscreen></iframe>  
 
 ## Is it possible to use polar domain repetition ?
 
