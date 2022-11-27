@@ -69,7 +69,7 @@ That's what Inigo thinks in this article.
 
 ![cat](https://sylvain69780.github.io/assets/images/pitchou_sleeping.jpg)  
 
-> This cat is my neighbour's. And he's not dead despite appearances, but he sleeps peacefully while I leave for work.
+> This kitten is my neighbour's. And he's not dead despite appearances, but he sleeps peacefully while I leave for work.
 
 This first article makes you know the relation between cos and dot product and sin and cross product.  
 
