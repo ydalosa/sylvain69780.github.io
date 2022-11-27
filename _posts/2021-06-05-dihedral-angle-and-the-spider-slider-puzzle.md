@@ -7,7 +7,9 @@ tags: shadertoy
 # Puzzling Rhombic Dodecahedron
 ## Math formulas and GitHub pages
 
-I used the method [described in this page](https://medium.com/coffee-in-a-klein-bottle/creating-a-mathematics-blog-with-jekyll-78cdee0339f3) to render Latex mathematical expressions in GitHub pages. Please note that you just need to copy from the Theme repository and customize the default.html file in the _layouts folder and add the below lines at the end.
+I used the method [described in this page](https://medium.com/coffee-in-a-klein-bottle/creating-a-mathematics-blog-with-jekyll-78cdee0339f3) to render Latex mathematical expressions in GitHub pages.  
+Please note that you just need to copy from the Theme repository and customize the default.html file in the _layouts folder and add the below lines at the end.
+Fortunately there is no need to duplicate the whole Theme repository in your GitHub pages repository.
 ```html
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
