@@ -5,6 +5,14 @@ tags: shadertoy
 ---
 
 # Puzzling Rhombic Dodecahedron
+## Math formulas and GitHub pages
+
+I used the method [described in this page](https://medium.com/coffee-in-a-klein-bottle/creating-a-mathematics-blog-with-jekyll-78cdee0339f3) to render Latex mathematical expressions in GitHub pages. Please note that you just need to copy from the Theme repository and customize the default.html file in the _layouts folder and add the below lines at the end.
+```html
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+```
+
 ## What is this ?
 
 I have the chance to own a "scorpius slider spider puzzle", a piece of wood art offered to me more than 30 years ago as I was a child.
@@ -36,7 +44,7 @@ The Wikipedia page about the [Rhombic dodecahedron](https://en.wikipedia.org/wik
   
 The French version of Wikipedia give a different expression for it : **$$2\times\arctan{\frac{1}{\sqrt{2}}}$$** ,it appears that this is the same value !
 
-This is related to the tan of the half arc formula.  
+This can be verified using the half arc formula.  
 
 [Fonction circulaire réciproque - Wikipedia](https://fr.wikipedia.org/wiki/Fonction_circulaire_r%C3%A9ciproque)  
 [Tangent half-angle formula - Wikipedia](https://en.wikipedia.org/wiki/Tangent_half-angle_formula)  
@@ -46,7 +54,7 @@ $$\arccos(x) = 2\times\arctan(\frac{\sqrt{1-x^2}}{1+x})$$
 Applied with $$x = \frac{1}{3}$$  
 
 $$\arccos(\frac{1}{3}) = 2\times\arctan(\frac{\sqrt{\frac{8}{9}}}{\frac{4}{3}}) \\
-= 2\times\arctan(\frac{\sqrt{2}\times\frac{2}{3}}{\frac{4}{3}})
+= 2\times\arctan(\frac{\sqrt{2}\times\frac{2}{3}}{\frac{4}{3}}) \\
 = 2\times\arctan(\frac{1}{\sqrt{2}})
 $$  
 
