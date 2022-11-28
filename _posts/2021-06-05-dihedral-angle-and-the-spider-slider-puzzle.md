@@ -86,13 +86,25 @@ The long face-diagonal length is exactly √2 times the short face-diagonal leng
 
 ![preview](https://sylvain69780.github.io/assets/images/rhombus.svg)  
 
-|symbol|value|explanation|calculation|
-|---|---|---|---|
-|rdan|70,5°| the acute angle of the faces of the rhombic dodecahedron|$\arccos(\frac{1}{3})$|
-  
-The French version of Wikipedia give a different expression for it : **$2\times\arctan{\frac{1}{\sqrt{2}}}$** ,it appears that this is the same value ! 
+$
+\tan(\frac{\theta}{2}) = \frac{1}{\sqrt2} \\
+\theta = 2\times\arctan{\frac{1}{\sqrt2}}
+$  
 
-This can be verified using the half arc formula.  
+Wikipedia gives a different expression for it : **$\arccos(\frac{1}{3})$**, it appears that this is the same value.
+
+Using al-Kashi (Pythagore generalized)
+
+$a^2=b^2+c^2-2b\cdot c\cos(\widehat A).$  
+
+![preview](https://www.bibmath.net/dico/s/images/sinusloi.gif)  
+
+$
+4 = 3+3-2*3*\cos(\theta) \\
+\cos(\theta) = 1/3
+$  
+
+This can be also be verified using the half arc formula.  
 
 [Fonction circulaire réciproque - Wikipedia](https://fr.wikipedia.org/wiki/Fonction_circulaire_r%C3%A9ciproque)  
 [Tangent half-angle formula - Wikipedia](https://en.wikipedia.org/wiki/Tangent_half-angle_formula)  
