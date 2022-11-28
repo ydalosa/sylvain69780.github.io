@@ -96,10 +96,10 @@ Wikipedia gives a different expression for it : **$\arccos(\frac{1}{3})$**, it a
 Using al-Kashi (Pythagore generalized)
 
 $a^2=b^2+c^2-2b\cdot c\cos(\widehat A).$  
+$4=3+3-2*3*\cos(\theta) \\ \cos(\theta) = 1/3$  
 
 ![preview](https://www.bibmath.net/dico/s/images/sinusloi.gif)  
 
-$4=3+3-2*3*\cos(\theta) \\ \cos(\theta) = 1/3$  
 
 This can be also be verified using the half arc formula.  
 
