@@ -6,7 +6,7 @@ tags: shadertoy
 
 # Avoid trigonometry and save a kitten
 
-These articles of IQ about using vectors operations (dot and cross products) instead of trigonometry function interested me.  
+These articles of IQ about using vectors operations (dot and cross products) instead of trigonometry functions interested me.  
 Developers are not always motivated to make high-performance code. But if it's about saving kittens to be murdered, maybe they'll make the effort?  
 
 ![cat](https://sylvain69780.github.io/assets/images/pitchou_sleeping.jpg)  

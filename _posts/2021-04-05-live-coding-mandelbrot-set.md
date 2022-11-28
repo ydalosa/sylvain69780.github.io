@@ -10,9 +10,40 @@ The definition is trivial, if you just have an idea of what complex numbers are 
 
 You just need this little complex number multiplication function to compute Z*Z.
 
+You can cut and paste the code below in Shadertoy as an example
+
 ```
-vec2 cmpxmul(in vec2 a, in vec2 b) {
-	return vec2(a.x * b.x - a.y * b.y, a.y * b.x + a.x * b.y);
+#define MAX_STEP 256
+#define cmpxmul(a, b) vec2(a.x*b.x-a.y*b.y, a.x*b.y+a.y*b.x)
+void mainImage( out vec4 fragColor, in vec2 fragCoord )
+{
+    // Normalized pixel coordinates (from 0 to 1)
+    vec2 uv = (2.0*fragCoord-iResolution.xy)/iResolution.y;
+    uv *= 2.;
+    // Time varying pixel color
+    vec3 col = vec3(0);
+    
+    vec2 m = (2.0*iMouse.xy-iResolution.xy)/iResolution.y;
+    if ( iMouse.x > 0.0 ) {
+        uv *= 1.0 + m.y;
+        uv.x -= m.x;
+    }
+    
+    vec2 z = vec2(0);
+    
+    int i;
+    for ( i=0 ; i<MAX_STEP ; i++ ) {
+        z = cmpxmul(z,z) + uv;
+        if ( dot(z,z) > 100. ) break;
+    }
+    
+    // colors
+    if ( i < MAX_STEP ) {
+        col = vec3(float(i+1)/float(MAX_STEP));
+    }
+
+    // Output to screen
+    fragColor = vec4(col,1.0);
 }
 ```
 
