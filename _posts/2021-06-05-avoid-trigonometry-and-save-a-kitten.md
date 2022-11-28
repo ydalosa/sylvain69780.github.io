@@ -7,18 +7,17 @@ tags: shadertoy
 # Avoid trigonometry and save a kitten
 
 These articles of IQ about using vectors operations (dot and cross products) instead of trigonometry function interested me.  
-Developers are not always motivated to make high-performance code. But if it's about saving kittens, maybe they'll make the effort?  
-That's what Inigo thinks in this article.  
+Developers are not always motivated to make high-performance code. But if it's about saving kittens to be murdered, maybe they'll make the effort?  
 
 ![cat](https://sylvain69780.github.io/assets/images/pitchou_sleeping.jpg)  
 
 > This kitten is my neighbour's. And he's not dead despite appearances, but he sleeps peacefully while I leave for work.
 
-This first article makes you know the relation between cos and dot product and sin and cross product.  
+This first article tells about using the dot product instead of cos and cross product instead of sin. 
 
 [Inigo Quilez   ::   articles  ::   avoiding trigonometry - 2013](https://iquilezles.org/www/articles/noacos/noacos.htm)  
 
-This second one makes you understand the formulas   
+This second one makes you have a good use of the formulas below for optimization.
 
 ```
 sin(α + β)=sin(α) * cos(β) + cos(α) * sin(β)
