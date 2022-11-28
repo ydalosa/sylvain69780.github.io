@@ -78,6 +78,10 @@ As the pieces are placed on the faces or an inner rhombic dodecahedron, and ther
 
 ![preview](https://johnrausch.com/PuzzlingWorld/images/fig097.gif)  
 
+## Find the right angle
+
+This angle is needed to calculate the postition of the holes and pins of the puzzle.
+
 |symbol|value|explanation|calculation|
 |---|---|---|---|
 |rdan|70,5°| the acute angles on each face of the rhombic dodecahedron|$\arccos(\frac{1}{3})$|
@@ -98,7 +102,6 @@ Applied with $x = \frac{1}{3}$
 $$
 \arccos(\frac{1}{3}) = 2\times\arctan(\frac{\sqrt{\frac{8}{9}}}{\frac{4}{3}}) = 2\times\arctan(\frac{\sqrt{2}\times\frac{2}{3}}{\frac{4}{3}}) = 2\times\arctan(\frac{1}{\sqrt{2}})
 $$  
-
 
 ## Description of the pieces
 
