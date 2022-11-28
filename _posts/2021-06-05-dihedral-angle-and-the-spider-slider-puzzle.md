@@ -82,11 +82,15 @@ As the pieces are placed on the faces or an inner rhombic dodecahedron, and ther
 
 This angle is needed to calculate the postition of the holes and pins of the puzzle.
 
+The long face-diagonal length is exactly √2 times the short face-diagonal length, thus.
+
+![preview](https://sylvain69780.github.io/assets/images/rhombus.svg)  
+
 |symbol|value|explanation|calculation|
 |---|---|---|---|
-|rdan|70,5°| the acute angles on each face of the rhombic dodecahedron|$\arccos(\frac{1}{3})$|
+|rdan|70,5°| the acute angle of the faces of the rhombic dodecahedron|$\arccos(\frac{1}{3})$|
   
-The French version of Wikipedia give a different expression for it : **$2\times\arctan{\frac{1}{\sqrt{2}}}$** ,it appears that this is the same value !
+The French version of Wikipedia give a different expression for it : **$2\times\arctan{\frac{1}{\sqrt{2}}}$** ,it appears that this is the same value ! 
 
 This can be verified using the half arc formula.  
 
