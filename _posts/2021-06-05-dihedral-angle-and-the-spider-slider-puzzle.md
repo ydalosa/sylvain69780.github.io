@@ -87,7 +87,7 @@ The long face-diagonal length is exactly √2 times the short face-diagonal leng
 ![preview](https://sylvain69780.github.io/assets/images/rhombus.svg)  
 
 $
-\tan(\frac{\theta}{2}) = \frac{1}{\sqrt2} \\
+\tan(\frac{\theta}{2}) = \frac{1}{\sqrt2} \\  
 \theta = 2\times\arctan{\frac{1}{\sqrt2}}
 $  
 
@@ -100,7 +100,7 @@ $a^2=b^2+c^2-2b\cdot c\cos(\widehat A).$
 ![preview](https://www.bibmath.net/dico/s/images/sinusloi.gif)  
 
 $
-4 = 3+3-2*3*\cos(\theta) \\
+4 = 3+3-2*3*\cos(\theta) \\  
 \cos(\theta) = 1/3
 $  
 
