@@ -30,10 +30,7 @@ This video of Philippe Cichon shows how to mount and unmout it (in French)
 
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/Nlf3W2?gui=true&t=0&paused=true&muted=false" allowfullscreen></iframe>  
 
-## Is it possible to use polar domain repetition ?
-
-Using the Ray marching algorithm, domain repetition enables to compute a shape only once by defining repetition domains, like a grid for example.   
-Because in the animation just shown before, this is not applicable easyly, and the rendering is very slow because each of the 24 pieces are evaluated for distance estimation.
+The SDF rendering is very slow because each of the 24 pieces are evaluated for distance estimation.
 
 ## The difficulties of this 3D modeling
 
@@ -44,6 +41,10 @@ The explanation is in the design of this puzzle, mentioned in the Stewart Coffin
 
 ![preview](https://johnrausch.com/PuzzlingWorld/images/fig093.gif)  
 
+My illustration using Shadertoy
+
+<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/slfSRj?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>  
+
 This [sentence](https://johnrausch.com/PuzzlingWorld/chap08.htm) of the book explains all the mystery.  
 >The rhombic dodecahedron can be totally enclosed by a symmetrical cluster of 12 sticks having equilateral-triangular cross-section.  
 
@@ -53,22 +54,23 @@ As the pieces are placed on the faces or an inner rhombic dodecahedron, this exp
 
 |symbol|value|explanation|calculation|
 |---|---|---|---|
-|rdan|70,5°| the acute angles on each face of the rhombic dodecahedron|$$\arccos(\frac{1}{3})$$|
+|rdan|70,5°| the acute angles on each face of the rhombic dodecahedron|$\arccos(\frac{1}{3})$|
   
-The French version of Wikipedia give a different expression for it : **$$2\times\arctan{\frac{1}{\sqrt{2}}}$$** ,it appears that this is the same value !
+The French version of Wikipedia give a different expression for it : **$2\times\arctan{\frac{1}{\sqrt{2}}}$** ,it appears that this is the same value !
 
 This can be verified using the half arc formula.  
 
 [Fonction circulaire réciproque - Wikipedia](https://fr.wikipedia.org/wiki/Fonction_circulaire_r%C3%A9ciproque)  
 [Tangent half-angle formula - Wikipedia](https://en.wikipedia.org/wiki/Tangent_half-angle_formula)  
 
-$$\arccos(x) = 2\times\arctan(\frac{\sqrt{1-x^2}}{1+x})$$  
+$$
+\arccos(x) = 2\times\arctan(\frac{\sqrt{1-x^2}}{1+x})
+$$  
 
-Applied with $$x = \frac{1}{3}$$  
+Applied with $x = \frac{1}{3}$  
 
-$$\arccos(\frac{1}{3}) = 2\times\arctan(\frac{\sqrt{\frac{8}{9}}}{\frac{4}{3}}) \\
-= 2\times\arctan(\frac{\sqrt{2}\times\frac{2}{3}}{\frac{4}{3}}) \\
-= 2\times\arctan(\frac{1}{\sqrt{2}})
+$$
+\arccos(\frac{1}{3}) = 2\times\arctan(\frac{\sqrt{\frac{8}{9}}}{\frac{4}{3}}) = 2\times\arctan(\frac{\sqrt{2}\times\frac{2}{3}}{\frac{4}{3}}) = 2\times\arctan(\frac{1}{\sqrt{2}})
 $$  
 
 
@@ -137,8 +139,6 @@ The Stewart Coffin's book **The Puzzling World of Polyhedral Dissections** has b
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/Wd2Gzt?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>  
 
 - My illustrations on Shadertoy
-
-<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/slfSRj?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>  
 
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/slSGzy?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>  
 
