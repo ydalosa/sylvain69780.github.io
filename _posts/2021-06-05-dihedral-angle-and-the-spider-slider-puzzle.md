@@ -11,8 +11,19 @@ I used the method [described in this page](https://medium.com/coffee-in-a-klein-
 Please note that you just need to copy from the Theme repository and customize the default.html file in the _layouts folder and add the below lines at the end.
 Fortunately there is no need to duplicate the whole Theme repository in your GitHub pages repository.
 ```html
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
 ```
 
 ## What is this ?
@@ -25,6 +36,19 @@ I learnt reading [Philippe Cichon's blog](https://puzzles-et-casse-tete.blog4eve
 
 This video of Philippe Cichon shows how to mount and unmout it (in French)  
 [Le Scorpius on Youtube](https://www.youtube.com/watch?time_continue=13&v=2orJ6rTSx2s&feature=emb_logo)
+
+## About The Puzzling World of Polyhedral Dissections
+
+With Philippe Cichon's blog, I discovered a puzzling book available online for free !
+
+The Stewart Coffin's book **The Puzzling World of Polyhedral Dissections** has been made available on the Internet by [John Rausch](https://www.puzzle-place.com/wiki/John_Rausch)
+
+>The Puzzling World of Polyhedral Dissections was obviously not written by Stewart to get rich. Anyone who produces such works does it as a labor of love for a subject that is very dear to them. As puzzle collectors, we owe Stewart a huge debt of gratitude for sharing with us his knowledge about the mathematics, aesthetics and philosophy of geometric puzzles. If you enjoy it as much as I do, drop Stewart a line and thank him for his unselfish gesture.
+
+>So, during a recent visit with Stewart, I asked him what he thought about publishing it on the Internet. I hope you are as happy as I am that he said, "go for it!"
+
+>John Rausch
+>Oregonia, Ohio 1998
 
 ## How it looks after modeling it with Shadertoy
 
@@ -48,7 +72,7 @@ My illustration using Shadertoy
 This [sentence](https://johnrausch.com/PuzzlingWorld/chap08.htm) of the book explains all the mystery.  
 >The rhombic dodecahedron can be totally enclosed by a symmetrical cluster of 12 sticks having equilateral-triangular cross-section.  
 
-The Wikipedia page about the [Rhombic dodecahedron](https://en.wikipedia.org/wiki/Rhombic_dodecahedron) mention that $$\arccos(\frac{1}{3})$$ is the acute angles on each face. 
+The Wikipedia page about the [Rhombic dodecahedron](https://en.wikipedia.org/wiki/Rhombic_dodecahedron) mention that $\arccos(\frac{1}{3})$ is the acute angles on each face. 
 
 As the pieces are placed on the faces or an inner rhombic dodecahedron, this explains why they are oriented this way.
 
@@ -74,12 +98,24 @@ $$
 $$  
 
 
-## Position the pieces on the Rhombic dodecahedron
+## Description of the pieces
 
 ![preview](https://sylvain69780.github.io/assets/images/scorpius_puzzle_face1.svg)  
 
 Details of the front view of one of the 24 puzzle's pieces.
 The diameters of the holes and the pivots can be 6,0 mm, drilling no more than 8,0 mm. Seems to me 5,0 mm is good enough.  
+
+![preview](https://sylvain69780.github.io/assets/images/scorpius_puzzle_developped.svg)  
+
+Developped view  
+
+## Notes about calculations (sorry not very clear)
+
+Using some trigonometry
+
+![preview](https://sylvain69780.github.io/assets/images/scorpius_puzzle.svg)  
+
+![preview](https://sylvain69780.github.io/assets/images/scorpius_puzzle_rhombus.svg)  
 
 |symbol|value|explanation|calculation|
 |---|---|---|---|
@@ -89,14 +125,6 @@ The diameters of the holes and the pivots can be 6,0 mm, drilling no more than 8
 |f2|27.0 mm|width of face 2| 2 * f1 * (1-trnc)|
 |f3|1.5 mm|width of face 3| f1 * trnc|
 |f4|23.4 mm|width of face 3| f1 * k * (1-trnc) |
-
-![preview](https://sylvain69780.github.io/assets/images/scorpius_puzzle_rhombus.svg)  
-
-Top view of face 1 on the Rhombic dodecahedron rhombus face and developed view of face 2. Face 1 is where most of the magic happens, because it's the contact face this the inner Rhombic Dodecahedron. This is also the location of the pivots that must match an hole on face 2 of the locked neighbouring piece.  
-
-![preview](https://sylvain69780.github.io/assets/images/scorpius_puzzle_developped.svg)  
-
-Developped view  
 
 |symbol|value|explanation|calculation|
 |---|---|---|---|
@@ -114,21 +142,6 @@ Developped view
 Details of the calculations using Desmos.  
  
 <iframe src="https://www.desmos.com/calculator/jjntvihj13?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>  
-
-![preview](https://sylvain69780.github.io/assets/images/scorpius_puzzle.svg)  
-
-## About The Puzzling World of Polyhedral Dissections
-
-With Philippe Cichon's blog, I discovered a puzzling book available online for free !
-
-The Stewart Coffin's book **The Puzzling World of Polyhedral Dissections** has been made available on the Internet by [John Rausch](https://www.puzzle-place.com/wiki/John_Rausch)
-
->The Puzzling World of Polyhedral Dissections was obviously not written by Stewart to get rich. Anyone who produces such works does it as a labor of love for a subject that is very dear to them. As puzzle collectors, we owe Stewart a huge debt of gratitude for sharing with us his knowledge about the mathematics, aesthetics and philosophy of geometric puzzles. If you enjoy it as much as I do, drop Stewart a line and thank him for his unselfish gesture.
-
->So, during a recent visit with Stewart, I asked him what he thought about publishing it on the Internet. I hope you are as happy as I am that he said, "go for it!"
-
->John Rausch
->Oregonia, Ohio 1998
 
 ## References
 
