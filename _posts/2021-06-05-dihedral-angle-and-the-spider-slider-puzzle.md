@@ -69,12 +69,14 @@ My illustration using Shadertoy
 
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/slfSRj?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>  
 
-This [sentence](https://johnrausch.com/PuzzlingWorld/chap08.htm) of the book explains all the mystery.  
+This [sentence](https://johnrausch.com/PuzzlingWorld/chap08.htm) of the book gives somes clues.  
 >The rhombic dodecahedron can be totally enclosed by a symmetrical cluster of 12 sticks having equilateral-triangular cross-section.  
 
 The Wikipedia page about the [Rhombic dodecahedron](https://en.wikipedia.org/wiki/Rhombic_dodecahedron) mention that $\arccos(\frac{1}{3})$ is the acute angles on each face. 
 
-As the pieces are placed on the faces or an inner rhombic dodecahedron, this explains why they are oriented this way.
+As the pieces are placed on the faces or an inner rhombic dodecahedron, and there is a visual explanation below from the book.
+
+![preview](https://johnrausch.com/PuzzlingWorld/images/fig097.gif)  
 
 |symbol|value|explanation|calculation|
 |---|---|---|---|
@@ -103,7 +105,7 @@ $$
 ![preview](https://sylvain69780.github.io/assets/images/scorpius_puzzle_face1.svg)  
 
 Details of the front view of one of the 24 puzzle's pieces.
-The diameters of the holes and the pivots can be 6,0 mm, drilling no more than 8,0 mm. Seems to me 5,0 mm is good enough.  
+These are equilateral-triangular cross-section, cutted in half.
 
 ![preview](https://sylvain69780.github.io/assets/images/scorpius_puzzle_developped.svg)  
 
