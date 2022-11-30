@@ -52,13 +52,18 @@ The Stewart Coffin's book **The Puzzling World of Polyhedral Dissections** has b
 
 ## How it looks after modeling it with Shadertoy
 
+I challenged myself to model this puzzle on Shadertoy, and here is the result after many hours of drawing on paper and testing.
+
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/Nlf3W2?gui=true&t=0&paused=true&muted=false" allowfullscreen></iframe>  
 
-The SDF rendering is very slow because each of the 24 pieces are evaluated for distance estimation.
+The rendering is very slow, each of the 24 pieces are evaluated for distance estimation.
 
-## The difficulties of this 3D modeling
+## Draw the pieces of the puzzle
 
-I was very intrigued by the angle needed to connect four pieces together (first step in the resolution of the puzzle).  
+I first tried to reproduce the plans kindly put online by Philippe Cichon.
+
+I quickly realized that there was a problem with an essential angle allowing the assembly of the puzzle.
+
 Refering to the article on [Philippe Cichon's blog (French)](https://puzzles-et-casse-tete.blog4ever.com/le-scorpius-1), this angle is 70 degres, but why this value ?  
 
 The explanation is in the design of this puzzle, mentioned in the Stewart Coffin's book **The Puzzling World of Polyhedral Dissections**.
