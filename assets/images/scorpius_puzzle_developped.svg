@@ -24,7 +24,7 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.4514587"
-     inkscape:cx="634.87855"
+     inkscape:cx="362.73853"
      inkscape:cy="235.96951"
      inkscape:window-width="1920"
      inkscape:window-height="1057"
@@ -572,7 +572,7 @@
        style="font-size:18.6667px;line-height:1.25;font-family:'Courier New';-inkscape-font-specification:'Courier New, Normal';white-space:pre;shape-inside:url(#rect5463);display:inline"><tspan
          x="271.14453"
          y="25.263508"
-         id="tspan2">O</tspan></text>
+         id="tspan1">O</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-9.1308936,104.35305)"
@@ -580,7 +580,7 @@
        style="font-size:18.6667px;line-height:1.25;font-family:'Courier New';-inkscape-font-specification:'Courier New, Normal';white-space:pre;shape-inside:url(#rect11149);display:inline"><tspan
          x="271.14453"
          y="25.263508"
-         id="tspan3">A</tspan></text>
+         id="tspan2">A</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-71.647854,97.022875)"
@@ -588,7 +588,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:'Courier New';-inkscape-font-specification:'Courier New, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect11149-1);display:inline"><tspan
          x="271.14453"
          y="25.263508"
-         id="tspan4">70,5°</tspan></text>
+         id="tspan3">70,5°</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-67.862893,153.35254)"
@@ -596,7 +596,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:'Courier New';-inkscape-font-specification:'Courier New, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect11149-1-9);display:inline"><tspan
          x="271.14453"
          y="25.263508"
-         id="tspan5">60°</tspan></text>
+         id="tspan4">60°</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-0.88259996,156.22129)"
@@ -604,7 +604,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:'Courier New';-inkscape-font-specification:'Courier New, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect11149-1-9-3);display:inline"><tspan
          x="271.14453"
          y="25.263508"
-         id="tspan6">60°</tspan></text>
+         id="tspan5">60°</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,4.0034858,96.291078)"
@@ -612,7 +612,7 @@
        style="font-size:18.6667px;line-height:1.25;font-family:'Courier New';-inkscape-font-specification:'Courier New, Normal';white-space:pre;shape-inside:url(#rect11149-5);display:inline"><tspan
          x="271.14453"
          y="25.263508"
-         id="tspan7">B</tspan></text>
+         id="tspan6">B</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-19.391687,125.63942)"
@@ -620,7 +620,7 @@
        style="font-size:18.6667px;line-height:1.25;font-family:'Courier New';-inkscape-font-specification:'Courier New, Normal';white-space:pre;shape-inside:url(#rect11149-5-9);display:inline"><tspan
          x="271.14453"
          y="25.263508"
-         id="tspan8">C</tspan></text>
+         id="tspan7">C</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker1472);marker-end:url(#marker1506)"
        d="m 39.577755,85.841544 h 21.21"
@@ -740,6 +740,10 @@
        style="fill:none;stroke:#000000;stroke-width:0.499999"
        d="m 84.115973,98.19542 5.248971,15 H 60.744941 l -5.248968,-15 z"
        id="path2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-dasharray:0.5,0.5;stroke-dashoffset:0"
+       d="m 18.832396,83.445497 5.248971,14.999997 H -4.5386357 L -9.7876038,83.445497 Z"
+       id="path2-8" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.499999"
        d="m 53.852898,140.09719 15.889633,0.26712 -8.99759,-27.16889 -15.88963,-0.26711 z"

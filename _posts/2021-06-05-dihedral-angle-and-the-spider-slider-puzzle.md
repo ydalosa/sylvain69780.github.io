@@ -54,7 +54,7 @@ The Stewart Coffin's book **The Puzzling World of Polyhedral Dissections** has b
 
 I challenged myself to model this puzzle on Shadertoy, and here is the result after many hours of drawing on paper and testing.
 
-<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/Nlf3W2?gui=true&t=0&paused=true&muted=false" allowfullscreen></iframe>  
+<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/Nlf3W2?gui=true&t=0&paused=false&muted=false" allowfullscreen></iframe>  
 
 The rendering is very slow, each of the 24 pieces are evaluated for distance estimation.
 
@@ -64,22 +64,23 @@ I first tried to reproduce the plans kindly put online by Philippe Cichon.
 
 I quickly realized that there was a problem with an essential angle allowing the assembly of the puzzle.
 
-Refering to the article on [Philippe Cichon's blog (French)](https://puzzles-et-casse-tete.blog4ever.com/le-scorpius-1), this angle is 70 degres, but why this value ?  
+Refering to the article on [Philippe Cichon's blog (French)](https://puzzles-et-casse-tete.blog4ever.com/le-scorpius-1), this angle is 70 degres, but it is only an approximation.  
 
 The explanation is in the design of this puzzle, mentioned in the Stewart Coffin's book **The Puzzling World of Polyhedral Dissections**.
+
+As the pieces are placed on the faces or an inner rhombic dodecahedron, this angle is formed when 2 pieces on 2 different faces overlap.
+The first piece is oriented along one border of the rhombus, the second aligned with the other.
 
 ![preview](https://johnrausch.com/PuzzlingWorld/images/fig093.gif)  
 
 My illustration using Shadertoy
 
-<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/slfSRj?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>  
+<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/slfSRj?gui=true&t=0&paused=false&muted=false" allowfullscreen></iframe>  
 
 This [sentence](https://johnrausch.com/PuzzlingWorld/chap08.htm) of the book gives somes clues.  
 >The rhombic dodecahedron can be totally enclosed by a symmetrical cluster of 12 sticks having equilateral-triangular cross-section.  
 
 The Wikipedia page about the [Rhombic dodecahedron](https://en.wikipedia.org/wiki/Rhombic_dodecahedron) mention that $\arccos(\frac{1}{3})$ is the acute angles on each face. 
-
-As the pieces are placed on the faces or an inner rhombic dodecahedron, and there is a visual explanation below from the book.
 
 ![preview](https://johnrausch.com/PuzzlingWorld/images/fig097.gif)  
 
@@ -173,11 +174,11 @@ Details of the calculations using Desmos.
 
 - Rhombic dodecahedron SDF from yx on Shadertoy
 
-<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/Wd2Gzt?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>  
+<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/Wd2Gzt?gui=true&t=0&paused=true&muted=false" allowfullscreen></iframe>  
 
 - My illustrations on Shadertoy
 
-<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/slSGzy?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>  
+<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/slSGzy?gui=true&t=0&paused=true&muted=false" allowfullscreen></iframe>  
 
 - [Adam Savage's One Day Builds: Rhombic Dodecahedron with Matt Parker!](https://www.youtube.com/watch?v=65r_1TzJXaQ)  
 
