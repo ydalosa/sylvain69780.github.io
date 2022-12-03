@@ -67,8 +67,13 @@ I quickly realized that there was a problem with an essential angle allowing the
 Refering to the article on [Philippe Cichon's blog (French)](https://puzzles-et-casse-tete.blog4ever.com/le-scorpius-1), this angle is 70 degres, but it is only an approximation.  
 
 The explanation is in the design of this puzzle, mentioned in the Stewart Coffin's book **The Puzzling World of Polyhedral Dissections**.
+This [sentence](https://johnrausch.com/PuzzlingWorld/chap08.htm) of the book gives somes clues.  
+>The rhombic dodecahedron can be totally enclosed by a symmetrical cluster of 12 sticks having equilateral-triangular cross-section.  
 
 As the pieces are placed on the faces or an inner rhombic dodecahedron, this angle is formed when 2 pieces on 2 different faces overlap.
+
+![preview](https://johnrausch.com/PuzzlingWorld/images/fig097.gif)  
+
 The first piece is oriented along one border of the rhombus, the second aligned with the other.
 
 ![preview](https://johnrausch.com/PuzzlingWorld/images/fig093.gif)  
@@ -77,14 +82,10 @@ My illustration using Shadertoy
 
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/slfSRj?gui=true&t=0&paused=false&muted=false" allowfullscreen></iframe>  
 
-This [sentence](https://johnrausch.com/PuzzlingWorld/chap08.htm) of the book gives somes clues.  
->The rhombic dodecahedron can be totally enclosed by a symmetrical cluster of 12 sticks having equilateral-triangular cross-section.  
-
 The Wikipedia page about the [Rhombic dodecahedron](https://en.wikipedia.org/wiki/Rhombic_dodecahedron) mention that $\arccos(\frac{1}{3})$ is the acute angles on each face. 
 
-![preview](https://johnrausch.com/PuzzlingWorld/images/fig097.gif)  
 
-## Find the right angle
+## Verification of the calculation of the acute angle
 
 This angle is needed to calculate the postition of the holes and pins of the puzzle.
 
