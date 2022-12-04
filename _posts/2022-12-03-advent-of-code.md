@@ -10,7 +10,7 @@ Let try to do it using C# and Python
 # Day 1
 https://adventofcode.com/2022/day/1
 Here we have a groups of number separated with newlines and an empty line as a separator.
-We need to find the sum of there groups of number and find the bigger.
+We need to find the sum of these groups of number and find the bigger.
 ```csharp
 void Day1()
 {
@@ -22,5 +22,26 @@ void Day1()
         else
             l[l.Count - 1] += int.Parse(line);
     Console.WriteLine(l.Max());
+}
+```
+After the remark of my mentor Johann that this algorithm is "not terrible"
+```csharp
+static void Day1()
+{
+    var c = 0;
+    var m = 0;
+    foreach (string line in System.IO.File.ReadLines(@"day1.txt"))
+        if (line == "")
+        {
+            if (c > m)
+                m = c;
+            c = 0;
+        }
+        else
+            c += int.Parse(line);
+    // last group of values
+    if (c > m)
+        m = c;
+    Console.WriteLine(m);
 }
 ```
