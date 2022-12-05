@@ -8,7 +8,7 @@ I love the minimalist design of this event.
 I know about this annual event for coders through my nephew Cyrille. Not very confident at first, I had finished last year's puzzles a few months late.
 Let try to do it using C# and Python
 # Day 2
-https://adventofcode.com/2022/day/2
+[here](https://adventofcode.com/2022/day/2)
 I must code the rules of the game and decode the inputs
 ```csharp
 static void Day2()
@@ -39,8 +39,8 @@ static void Day2()
 ```
 
 # Day 1
-https://adventofcode.com/2022/day/1
-Here we have a groups of number separated with newlines and an empty line as a separator.
+
+[Here](https://adventofcode.com/2022/day/1) we have a groups of number separated with newlines and an empty line as a separator.
 We need to find the sum of these groups of number and find the bigger.
 ```csharp
 void Day1()
