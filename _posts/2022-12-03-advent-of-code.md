@@ -109,3 +109,5 @@ static void Day1()
     Console.WriteLine(m);
 }
 ```
+[String.Empty and "" produces exactly the same code](https://stackoverflow.com/questions/2905378/string-empty-versus)
+>I've had numerous cases while quickly prototyping code, I littered "" all over the place, which later introduced many bugs, because **intent** was not clear: "Did I mean to say: pass empty string here, intentionally" or "Did I forgot to pass a non-empty string here
