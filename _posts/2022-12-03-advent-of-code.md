@@ -45,3 +45,19 @@ static void Day1()
     Console.WriteLine(m);
 }
 ```
+V2 to avoid redondant condition
+```csharp
+static void Day1()
+{
+    var c = 0;
+    var m = 0;
+    foreach (string line in System.IO.File.ReadLines(@"day1.txt"))
+    {
+        if (line == "") c = 0;
+        else c += int.Parse(line);
+        if (c > m) m = c;
+    }
+    Console.WriteLine(m);
+}
+```
+
