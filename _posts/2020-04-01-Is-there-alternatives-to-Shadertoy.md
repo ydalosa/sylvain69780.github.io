@@ -25,3 +25,5 @@ Below alternative sites I noticed
     * To learn about verted Shaders in GLSL, the sound texture offers a lot of possibilities.
 * https://neort.io/popular
     * Digital artists can demonstrate their skills.
+* https://shaderoo.org/
+    * flockaroo Shadertoy's user did this and it is awesome. Good place to move when Shadertoy is crashing ! You can play with vertex shaders as well.

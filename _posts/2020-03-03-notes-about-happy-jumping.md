@@ -19,7 +19,7 @@ tags: shadertoy
 
 [Calculated Occusion, adjustment of key, fill, bounce lights intensity and colors, specular](https://youtu.be/Cfe5UQ-1L9Q?t=14387)
 
-The sun_spe ligthing term, very special, is explained at [4:09](https://youtu.be/Cfe5UQ-1L9Q?t=14952) and it is very short. I searched for it for long time.
+The sun_spe ligthing term, very special, is explained at [4:09](https://youtu.be/Cfe5UQ-1L9Q?t=14952) and it is very short. I searched for it for long time. It is a blinn phong formula.
 
 [fresnel](https://youtu.be/Cfe5UQ-1L9Q?t=15270)
 

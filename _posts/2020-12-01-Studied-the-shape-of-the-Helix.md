@@ -1,6 +1,6 @@
 ---
 layout: default
-title : "Studied the SDF function for an Helix"
+title : "Struggling with the SDF function for an Helix"
 tags : shadertoy
 ---
 I had the idea to study the shape of the Helix, there is many examples of it on Shadertoy.
