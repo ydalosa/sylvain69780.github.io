@@ -62,12 +62,11 @@ Illustration using Shadertoy
 
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/slfSRj?gui=true&t=0&paused=false&muted=false" allowfullscreen></iframe>  
 
-The Wikipedia page about the [Rhombic dodecahedron](https://en.wikipedia.org/wiki/Rhombic_dodecahedron) mention that $\arccos(\frac{1}{3})$ is the acute angles on each face. 
-
-
 ## Exercice to verify the acute angle
 
-This angle is needed to calculate the postition of the holes and pins of the puzzle.
+The Wikipedia page about the [Rhombic dodecahedron](https://en.wikipedia.org/wiki/Rhombic_dodecahedron) mention that $\arccos(\frac{1}{3})$ is the acute angles on each face. 
+
+This angle is a key to calculate the relative postition of the holes and pins of the puzzle.
 
 The long face-diagonal length is exactly √2 times the short face-diagonal length, thus.
 
