@@ -5,34 +5,14 @@ tags: shadertoy
 ---
 
 # Puzzling Rhombic Dodecahedron
-## Math formulas and GitHub pages
-
-I used the method [described in this page](https://medium.com/coffee-in-a-klein-bottle/creating-a-mathematics-blog-with-jekyll-78cdee0339f3) to render Latex mathematical expressions in GitHub pages.  
-Please note that you just need to copy from the Theme repository and customize the default.html file in the _layouts folder and add the below lines at the end.
-Fortunately there is no need to duplicate the whole Theme repository in your GitHub pages repository.
-```html
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  },
-  svg: {
-    fontCache: 'global'
-  }
-};
-</script>
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
-</script>
-```
-
 ## What is this ?
 
-I have the chance to own a "scorpius slider spider puzzle", a piece of wood art offered to me more than 30 years ago as I was a child.
+I have the chance to own a "scorpius slider spider puzzle", a piece of wood art offered to me more than 30 years ago as I was a child.  
+I wanted to try a reproduction to publish in Shadertoy.
 
 ![preview](https://static.blog4ever.com/2008/06/213622/artfichier_213622_8769121_202010012502419.png)
 
-I learnt reading [Philippe Cichon's blog](https://puzzles-et-casse-tete.blog4ever.com/le-scorpius-1) that it's a rare puzzle, very few makers exists.
+I learnt reading [Philippe Cichon's blog](https://puzzles-et-casse-tete.blog4ever.com/le-scorpius-1) that it's a rare puzzle, very few makers exists !
 
 This video of Philippe Cichon shows how to mount and unmout it (in French)  
 [Le Scorpius on Youtube](https://www.youtube.com/watch?time_continue=13&v=2orJ6rTSx2s&feature=emb_logo)
@@ -78,14 +58,14 @@ The first piece is oriented along one border of the rhombus, the second aligned 
 
 ![preview](https://johnrausch.com/PuzzlingWorld/images/fig093.gif)  
 
-My illustration using Shadertoy
+Illustration using Shadertoy
 
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/slfSRj?gui=true&t=0&paused=false&muted=false" allowfullscreen></iframe>  
 
 The Wikipedia page about the [Rhombic dodecahedron](https://en.wikipedia.org/wiki/Rhombic_dodecahedron) mention that $\arccos(\frac{1}{3})$ is the acute angles on each face. 
 
 
-## Verification of the calculation of the acute angle
+## Exercice to verify the acute angle
 
 This angle is needed to calculate the postition of the holes and pins of the puzzle.
 
@@ -102,12 +82,10 @@ Wikipedia gives a different expression for it : **$\arccos(\frac{1}{3})$**, it a
 
 Using al-Kashi (Pythagore generalized)
 
-$a^2=b^2+c^2-2b\cdot c\cos(\widehat A).$  
-
+$a^2=b^2+c^2-2b\cdot c\cos(\theta).$  
+$a=2 b=c=\sqrt3$  
+$\cos(\theta) = \frac{4-3}{3}$  
 $\cos(\theta) = 1/3$  
-
-![preview](https://www.bibmath.net/dico/s/images/sinusloi.gif)  
-
 
 This can be also be verified using the half arc formula.  
 
@@ -135,7 +113,7 @@ These are equilateral-triangular cross-section, cutted in half.
 
 Developped view  
 
-## Notes about calculations (sorry not very clear)
+## Notes about calculations (messy, hope I will be able to rework it some day)
 
 Using some trigonometry
 
@@ -188,3 +166,25 @@ Details of the calculations using Desmos.
 Reference : [The Coding Train : 18.7: Loading OBJ Model - WebGL and p5.js Tutorial](https://youtu.be/FUI7HEEz9B0)  
 
 <iframe  width="640" height="360" frameborder="0" src="https://preview.p5js.org/sylvain69780/embed/rCCoddv44"></iframe>  
+
+## Math formulas and GitHub pages
+
+I used the method [described in this page](https://medium.com/coffee-in-a-klein-bottle/creating-a-mathematics-blog-with-jekyll-78cdee0339f3) to render Latex mathematical expressions in GitHub pages.  
+Please note that you just need to copy from the Theme repository and customize the default.html file in the _layouts folder and add the below lines at the end.
+Fortunately there is no need to duplicate the whole Theme repository in your GitHub pages repository.
+```html
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+```
+

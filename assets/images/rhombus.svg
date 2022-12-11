@@ -201,10 +201,6 @@
          y="27.615364"
          style="stroke-width:0.60573">θ</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.60573"
-       d="m 60.693353,84.951698 -2e-6,-35.355249"
-       id="path4" />
-    <path
        style="fill:none;stroke:#000000;stroke-width:1.0055;stroke-dasharray:none;marker-start:url(#marker14);marker-end:url(#marker15)"
        d="m 60.693353,14.2412 -2e-6,35.355249"
        id="path5" />
@@ -229,5 +225,33 @@
        sodipodi:open="true"
        sodipodi:arc-type="arc"
        d="m 64.722279,19.956933 a 6.9929857,6.9929857 0 0 1 -7.9218,0.09352" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64445px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:none;stroke:#000000;stroke-width:0.60573"
+       x="42.056667"
+       y="27.615364"
+       id="text3-8-3"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         x="42.056667"
+         y="27.615364">b</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64445px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:none;stroke:#000000;stroke-width:0.60573"
+       x="55.500961"
+       y="55.702641"
+       id="text3-8-3-1"><tspan
+         sodipodi:role="line"
+         id="tspan2">a</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64445px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:none;stroke:#000000;stroke-width:0.60573"
+       x="76.637749"
+       y="26.996624"
+       id="text3-8-3-9"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         x="76.637749"
+         y="26.996624">c</tspan></text>
   </g>
 </svg>
