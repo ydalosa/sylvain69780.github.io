@@ -11,7 +11,7 @@ Developers are not always motivated to make high-performance code. But if it's a
 
 ![cat](https://sylvain69780.github.io/assets/images/pitchou_sleeping.jpg)  
 
-> This kitten is my neighbour's. And he's not dead despite appearances, but he sleeps peacefully while I leave for work.
+> This kitten is my neighbour's. And he's not dead fortunately, but he sleeps peacefully while I leave for work.
 
 This first article tells about using the dot product instead of cos and cross product instead of sin. 
 
