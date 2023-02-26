@@ -41,7 +41,7 @@ def fact(n):
     for k in range(n):
         f=f*(k+1)
     return f
-# compute n*(n-1)*(n-2)...
+# computes n*(n-1)*(n-2)...
 def factk(n,c):
     f=1
     for k in range(c):
@@ -52,7 +52,7 @@ def newton_sqr3(c):
     x=-1/4
     s=1
     for k in range(1,c):
-        s+=(x**k)*factk(n,k)/fact(k)        
+        s+=factk(n,k)/fact(k)*(x**k)        
     return s*2 
 def newton_pi(c):
     pi=(3*newton_sqr3(c)/4)
