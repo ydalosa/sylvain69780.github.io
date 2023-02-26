@@ -9,15 +9,15 @@ I find the Veritasium video "The Discovery That Transformed Pi" quite extraordin
 
 This video has 11M views, and it's no coincidence.
 
-It shows Newton as a real genius, in the sense that he invented a revolutionary method of calculation starting from a trivial figure (Pascal's triangle) known for centuries.
+It shows Newton as a real genius, in the sense that he invented a revolutionary method of calculation starting from a trivial figure (the binomial expansion, related to Pascal's triangle) known for centuries.
 
-The generalized binomial expansion is below. 
+The binomial expansion is below. 
 
 $$
 (1+x)^n = 1 + nx + \frac{n\times(n-1)}{2!}x^2 + \frac{n\times(n-1)\times(n-2)}{3!}x^3 + ...
 $$ 
 
-Taking $n = \frac{1}{2}$, a fraction, for a formula supposed to be used with integer values (!), magic happens.
+Taking $n = \frac{1}{2}$, a fraction, for a formula related to the Pascal's triangle and designed to be used with integer values (!), magic happens because it allows now to calculate (square) roots.
 
 I wanted to compute PI with the formula described in the Video.
 
@@ -62,7 +62,7 @@ for i in range(1,21):
     print()
 ```
 
-This gives after 20 iterations, quite same number as the pi of the math library, that is geat !
+This gives after 20 iterations, a number very close to the pi of the math library, that is great !
 
 ```
 20 iterations.
