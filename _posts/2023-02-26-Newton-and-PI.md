@@ -5,9 +5,9 @@ tags: coding
 ---
 # The Discovery That Transformed Pi
 
-I find the Veritasium video "The Discovery That Transformed Pi" quite extraordinary.  
+The Veritasium video "The discovery that transformed Pi" is extraordinary.
 
-This video has 11M views, and it's no coincidence.
+This video has **11M views**, and it's no coincidence.
 
 It shows Newton as a real genius, in the sense that he invented a revolutionary method of calculation starting from a trivial figure (the binomial expansion, related to Pascal's triangle) known for centuries.
 
