@@ -17,7 +17,7 @@ $$
 (1+x)^n = 1 + nx + \frac{n\times(n-1)}{2!}x^2 + \frac{n\times(n-1)\times(n-2)}{3!}x^3 + ...
 $$ 
 
-Taking $n = \frac{1}{2}$, a fraction, for a formula related to the Pascal's triangle and designed to be used with integer values (!), magic happens because it allows now to calculate (square) roots.
+Taking $n = \frac{1}{2}$, a fraction, for a formula designed to be used with integer values, magic happens.
 
 I wanted to compute PI with the formula described in the Video.
 
