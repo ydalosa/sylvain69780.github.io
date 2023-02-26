@@ -7,6 +7,8 @@ tags: coding
 
 I find the Veritasium video "The Discovery That Transformed Pi" quite extraordinary.  
 
+This video has 11M views, and it's no coincidence.
+
 It shows Newton as a real genius, in the sense that he invented a revolutionary method of calculation starting from a trivial figure (Pascal's triangle) known for centuries.
 
 The generalized binomial expansion is below. 
