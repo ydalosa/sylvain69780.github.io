@@ -31,13 +31,17 @@ $$
 sqrt{3} = 2\times(1-\frac{1}{4})^\frac{1}{2} 
 $$ 
 
+The code below is not optimized at all.
+
 ```python
 from math import *
+# factorial function
 def fact(n):
     f=1
     for k in range(n):
         f=f*(k+1)
     return f
+# compute n*(n-1)*(n-2)...
 def factk(n,c):
     f=1
     for k in range(c):
