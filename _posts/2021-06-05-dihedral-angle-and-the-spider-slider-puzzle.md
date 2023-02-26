@@ -82,7 +82,7 @@ Wikipedia gives a different expression for it : **$\arccos(\frac{1}{3})$**, it a
 Using al-Kashi (Pythagore generalized)
 
 $a^2=b^2+c^2-2b\cdot c\cos(\theta).$  
-$a=2 b=c=\sqrt3$  
+$a=2, b=c=\sqrt3$  
 $\cos(\theta) = \frac{4-3}{3}$  
 $\cos(\theta) = 1/3$  
 
@@ -103,14 +103,14 @@ $$
 
 ## Description of the pieces
 
-![preview](https://sylvain69780.github.io/assets/images/scorpius_puzzle_face1.svg)  
-
-Details of the front view of one of the 24 puzzle's pieces.
+Details of the front view of one of the 24 puzzle's pieces.  
 These are equilateral-triangular cross-section, cutted in half.
 
-![preview](https://sylvain69780.github.io/assets/images/scorpius_puzzle_developped.svg)  
+![preview](https://sylvain69780.github.io/assets/images/scorpius_puzzle_face1.svg)  
 
-Developped view  
+Developped view, 70,5° is the approxiated value of   $\arccos(\frac{1}{3})$
+
+![preview](https://sylvain69780.github.io/assets/images/scorpius_puzzle_developped.svg)  
 
 ## Notes about calculations (messy, hope I will be able to rework it some day)
 

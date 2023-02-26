@@ -6,7 +6,9 @@ tags: coding
 # Starting
 I love the minimalist design of this event.
 I know about this annual event for coders through my nephew Cyrille. Not very confident at first, I had finished last year's puzzles a few months late.
-Let try to do it using C# and Python
+Let try to do it using C# and Python.  
+
+I would have liked to continue the description of my solutions for each problem, but I now think that I will not finish this work. My codes are on [my github repository](https://github.com/sylvain69780/AdventOfCode2022)
 # Day 1
 
 [Here](https://adventofcode.com/2022/day/1) we have a groups of number separated with newlines and an empty line as a separator.
@@ -97,8 +99,8 @@ static void Day1p2()
     Console.WriteLine(l.OrderByDescending(x=>x).Take(3).Sum());
 }
 ```
-[String.Empty and "" produces exactly the same code](https://stackoverflow.com/questions/2905378/string-empty-versus)
->I've had numerous cases while quickly prototyping code, I littered "" all over the place, which later introduced many bugs, because **intent** was not clear: "Did I mean to say: pass empty string here, intentionally" or "Did I forgot to pass a non-empty string here
+I realized that in C#, [String.Empty and "" produces exactly the same code](https://stackoverflow.com/questions/2905378/string-empty-versus)  
+"String.Empty" is more self explanatory and makes the code easier to read.
 
 # Day 2
 [here](https://adventofcode.com/2022/day/2)

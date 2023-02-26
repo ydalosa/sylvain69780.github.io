@@ -8,3 +8,5 @@ I had the idea to study the shape of the Helix, there is many examples of it on 
 I have an idea seems fun to make a scytale ! https://en.wikipedia.org/wiki/Scytale
 
 These can be found [searching using the helix keyword](https://www.shadertoy.com/results?query=helix&sort=popular&from=24&num=12)
+
+I put a link here to Fabrice's article [make a spiral](https://shadertoyunofficial.wordpress.com/2019/01/15/case-study-making-dot-pattern-loopless/)
