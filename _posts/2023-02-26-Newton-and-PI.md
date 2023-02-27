@@ -9,7 +9,7 @@ The Veritasium video "The discovery that transformed Pi" is extraordinary.
 
 This video has **11M views**, and it's no coincidence.
 
-It shows Newton as a real genius, in the sense that he invented a revolutionary method of calculation starting from a trivial figure (the binomial expansion, related to Pascal's triangle) known for centuries.
+It shows Newton as a real genius, in the sense that he invented a revolutionary method of calculation starting from the trivial "binomial expansion", related to Pascal's triangle and known for centuries.
 
 The binomial expansion is below. 
 
@@ -25,7 +25,7 @@ $$
 \pi = \frac{3\times\sqrt{3}}{4} - 24\times\sum_{n=0}^{\infty}\frac{(2n)!}{2^{4n+2}\times(n!)^2\times(2n-1)(2n+3)}
 $$ 
 
-I wanted also compute the square root of 3 as Newton would do, using the following formula. $(x+1)^\frac{1}{2}$ with $x=-\frac{1}{4}$  
+I wanted also compute the square root of 3 as [Newton would do](https://youtu.be/gMlf1ELvRzc?t=742), using the following formula. $(x+1)^\frac{1}{2}$ with $x=-\frac{1}{4}$  
 
 $$ 
 sqrt{3} = 2\times(1-\frac{1}{4})^\frac{1}{2} 
