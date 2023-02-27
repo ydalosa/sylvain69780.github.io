@@ -22,13 +22,17 @@ Taking $n = \frac{1}{2}$, a fraction, for a formula designed to be used with int
 I wanted to compute PI with the formula described in the Video.
 
 $$
-\pi = \frac{3\times\sqrt{3}}{4} + \sum_{n=0}^{\infty}\frac{(2n)!}{2^{4n+2}\times(n!)^2\times(2n-1)(2n+3)}
+\pi = \frac{3\times\sqrt{3}}{4} - 24\times\sum_{n=0}^{\infty}\frac{(2n)!}{2^{4n+2}\times(n!)^2\times(2n-1)(2n+3)}
 $$ 
 
 I wanted also compute the square root of 3 as Newton would do, using the following formula. $(x+1)^\frac{1}{2}$ with $x=-\frac{1}{4}$  
 
 $$ 
 sqrt{3} = 2\times(1-\frac{1}{4})^\frac{1}{2} 
+$$ 
+
+$$ 
+(1-\frac{1}{4})^\frac{1}{2} = 1 - \frac{1}{8} - \frac{1}{128} - \frac{1}{1024} ...
 $$ 
 
 The code below is not optimized at all.
