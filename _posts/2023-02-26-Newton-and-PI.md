@@ -3,6 +3,13 @@ layout: default
 title: "The Discovery That Transformed Pi"
 tags: coding
 ---
+# PI day
+
+Pi Day is **March 14**. This is an opportunity to test all sorts of ideas for calculating this number.  
+I loved David Shiftman's song on the youtube channel "The coding train".  
+This is the only number you can eat ! 🥮
+
+[Coding Challenge 169: Pi in the Sky Game](https://www.youtube.com/watch?v=_H9JIwWP7HQ)
 # The Discovery That Transformed Pi
 
 The Veritasium video "The discovery that transformed Pi" is extraordinary.
@@ -14,7 +21,7 @@ It shows Newton as a real genius, in the sense that he invented a revolutionary 
 The binomial expansion is below. 
 
 $$
-(1+x)^n = 1 + nx + \frac{n\times(n-1)}{2!}x^2 + \frac{n\times(n-1)\times(n-2)}{3!}x^3 + ...
+(1+x)^n = 1 + nx + \frac{n\times(n-1)}{2!}x^2 + \frac{n\times(n-1)\times(n-2)}{3!}x^3 + \frac{n\times(n-1)\times(n-2)\times(n-3)}{4!}x^4 + ...
 $$ 
 
 Taking n as an integer, the serie is not infinite because a zero appears when k=n and all remaining terms are multiplied by zero. 
@@ -33,7 +40,7 @@ sqrt{3} = 2\times(1-\frac{1}{4})^\frac{1}{2}
 $$ 
 
 $$ 
-(1-\frac{1}{4})^\frac{1}{2} = 1 - \frac{1}{8} - \frac{1}{128} - \frac{1}{1024} - \frac{10}{2^{16}} ...
+(1-\frac{1}{4})^\frac{1}{2} = 1 - \frac{1}{8} - \frac{1}{128} - \frac{1}{2^{10}} + \frac{5}{2^{15}} ...
 $$ 
 
 The code below is not optimized at all.
@@ -71,7 +78,7 @@ for i in range(1,21):
     print()
 ```
 
-This gives after 20 iterations, a number very close to the pi of the math library, that is great !
+This gives after 20 iterations, a number very close to the pi of the math library, that is great for a first try !
 
 ```
 20 iterations.
