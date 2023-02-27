@@ -17,6 +17,7 @@ $$
 (1+x)^n = 1 + nx + \frac{n\times(n-1)}{2!}x^2 + \frac{n\times(n-1)\times(n-2)}{3!}x^3 + ...
 $$ 
 
+Taking n as an integer, the serie is not infinite because a zero appears when k=n and all remaining terms are multiplied by zero. 
 Taking $n = \frac{1}{2}$, a fraction, for a formula designed to be used with integer values, magic happens.
 
 I wanted to compute PI with the formula described in the Video.
@@ -32,20 +33,20 @@ sqrt{3} = 2\times(1-\frac{1}{4})^\frac{1}{2}
 $$ 
 
 $$ 
-(1-\frac{1}{4})^\frac{1}{2} = 1 - \frac{1}{8} - \frac{1}{128} - \frac{1}{1024} ...
+(1-\frac{1}{4})^\frac{1}{2} = 1 - \frac{1}{8} - \frac{1}{128} - \frac{1}{1024} - \frac{10}{2^{16}} ...
 $$ 
 
 The code below is not optimized at all.
 
 ```python
 from math import *
-# factorial function
+# factorial like function but works with fractions (1/2) !
 def fact(n):
     f=1
     for k in range(n):
         f=f*(k+1)
     return f
-# computes n*(n-1)*(n-2)...
+# computes n*(n-1)*(n-2)..., again n could be a fraction
 def factk(n,c):
     f=1
     for k in range(c):
