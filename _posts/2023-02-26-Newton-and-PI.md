@@ -47,24 +47,21 @@ The code below is not optimized at all.
 
 ```python
 from math import *
-# factorial like function but works with fractions (1/2) !
+# factorial function
 def fact(n):
     f=1
     for k in range(n):
         f=f*(k+1)
     return f
-# computes n*(n-1)*(n-2)..., again n could be a fraction
-def factk(n,c):
-    f=1
-    for k in range(c):
-        f=f*(n-k)
-    return f
 def newton_sqr3(c):
     n=1/2
     x=-1/4
     s=1
+    # computes n*(n-1)*(n-2)... for sqrt(3), but here n will be 1/2
+    num=n
     for k in range(1,c):
-        s+=factk(n,k)/fact(k)*(x**k)        
+        s+=(num/fact(k))*(x**k)
+        num*=(n-k)
     return s*2 
 def newton_pi(c):
     pi=(3*newton_sqr3(c)/4)
