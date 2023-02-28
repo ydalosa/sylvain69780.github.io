@@ -64,10 +64,10 @@ def expansion(x,n,c):
 def sqr3(c):
     return 2*expansion(-1/4,1/2,c)
 def newton_pi(c):
-    pi=3*sqr3(c)/4
+    npi=3*sqr3(c)/4
     for k in range(c):
-        pi-=24*fact(2*k)/((2**(4*k+2))*(fact(k)**2)*(2*k-1)*(2*k+3))
-    return pi
+        npi-=24*fact(2*k)/((2**(4*k+2))*(fact(k)**2)*(2*k-1)*(2*k+3))
+    return npi
 for i in range(1,21):
     print(str(i)+" iterations.")
     print(newton_pi(i))
