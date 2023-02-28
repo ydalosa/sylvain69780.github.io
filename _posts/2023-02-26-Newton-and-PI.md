@@ -16,7 +16,7 @@ The Veritasium video "The discovery that transformed Pi" is extraordinary.
 
 This video has **11M views**, and it's no coincidence.
 
-It shows Newton as a real genius, in the sense that he invented a revolutionary method of calculation starting from the trivial "binomial expansion", related to Pascal's triangle and known for centuries.
+It shows **Isaac Newton** as a real genius, in the sense that he invented a revolutionary method of calculation starting from the trivial "binomial expansion", related to Pascal's triangle and known for centuries.
 
 The binomial expansion is below. 
 
@@ -24,8 +24,9 @@ $$
 (1+x)^n = 1 + nx + \frac{n\times(n-1)}{2!}x^2 + \frac{n\times(n-1)\times(n-2)}{3!}x^3 + \frac{n\times(n-1)\times(n-2)\times(n-3)}{4!}x^4 + ...
 $$ 
 
-Taking n as an integer, the serie is not infinite because a zero appears when k=n and all remaining terms are multiplied by zero. 
-Taking $n = \frac{1}{2}$, a fraction, for a formula designed to be used with integer values, magic happens.
+This formula was well known with "n" as an integer.  
+Newton discovered it works also with negative and fractional powers, it makes the sequence to be infinite but converging to the right value.
+Taking n as an integer, the serie is not infinite because a zero appears when k=n and all remaining terms are then multiplied by zero. 
 
 I wanted to compute PI with the formula described in the Video.
 
