@@ -54,19 +54,18 @@ def fact(n):
     for k in range(n):
         f=f*(k+1)
     return f
-def newton_sqr3(c):
-    n=1/2
-    x=-1/4
+def expansion(x,n,c):
     s=1
-    # computes n*(n-1)*(n-2)... for sqrt(3), but here n will be 1/2
     num=n
     for k in range(1,c):
         s+=(num/fact(k))*(x**k)
-        num*=(n-k)
-    return s*2 
+        num*=n-k
+    return s 
+def sqr3(c):
+    return 2*expansion(-1/4,1/2,c)
 def newton_pi(c):
-    pi=(3*newton_sqr3(c)/4)
-    for k in range(0,c):
+    pi=3*sqr3(c)/4
+    for k in range(c):
         pi-=24*fact(2*k)/((2**(4*k+2))*(fact(k)**2)*(2*k-1)*(2*k+3))
     return pi
 for i in range(1,21):
