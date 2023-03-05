@@ -25,8 +25,9 @@ $$
 $$ 
 
 This formula was well known with "n" as an integer.  
-Newton discovered it works also with negative and fractional powers, it makes the sequence to be infinite but converging to the right value.
-Taking n as an integer, the serie is not infinite because a zero appears when k=n and all remaining terms are then multiplied by zero. 
+Newton discovered it works also with negative and fractional "n" values.  
+When n is an integer, the serie ends because a zero appears when k=n and all remaining terms are then multiplied by zero. 
+When n is negative or fractional the sequence turns to be infinite but eventually converges to the expected value !
 
 I wanted to compute PI with the formula described in the Video.
 
