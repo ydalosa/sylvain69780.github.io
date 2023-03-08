@@ -13,10 +13,53 @@ While there are many formulas available for creating helix and spiral shapes usi
 
 [Helix - distance (APPROXIMATED) - IQ](https://www.shadertoy.com/view/ftyBRd)  
 ## Arithmetic (Archimedean) spiral
+
+
+[Basic Archimede Spiral  -  iapafoto](https://www.shadertoy.com/view/NdlyD4)  
+
+[Spiraled Layers - Tater](https://www.shadertoy.com/view/Ns3XWf)
+
 Fabrice's tutorial for loopless spiral [make a spiral](https://shadertoyunofficial.wordpress.com/2019/01/15/case-study-making-dot-pattern-loopless/)  
 
 Usefull formulas [Walking spirals - mrange](https://www.shadertoy.com/view/ddcGDl)  
+```cpp
+float spiralLength(float b, float a) {
+  // https://en.wikipedia.org/wiki/Archimedean_spiral
+  return 0.5*b*(a*sqrt(1.0+a*a)+log(a+sqrt(1.0+a*a)));
+}
+
+void spiralMod(inout vec2 p, float a) {
+  vec2 op     = p;
+  float b     = a/TAU;
+  float  rr   = length(op);
+  float  aa   = atan(op.y, op.x);
+  rr         -= aa*b;
+  float nn    = mod1(rr, a);
+  float sa    = aa + TAU*nn;
+  float sl    = spiralLength(b, sa);
+  p           = vec2(sl, rr);
+}
+```
+
 
 sdSpiral function used for the rolled bed [On the salt lake - iapafoto](https://www.shadertoy.com/view/fsXcR8)  
 
+```cpp
+float sdSpiral(vec3 p, vec2 sz){
+    float d = length(p.xy)/sz.x + atan(-p.y,p.x)*.5;  
+    d -= PI*clamp(round(d/PI),1.,4.);
+    return max(sz.x*(abs(d)-.77), abs(p.z)-sz.y); 
+}
+```
+
 [Spiral Arcs - distance - IQ](https://www.shadertoy.com/view/sssyWN)
+
+## Other ideas
+
+[Développante du cercle](https://fr.wikipedia.org/wiki/D%C3%A9veloppante_du_cercle)
+
+## Generic Spriral ribbon SDF
+
+In the domain of computer graphics, having an SDF function for an arithmetic spiral would be extremely useful for artists and designers who create digital art and 3D models. 
+
+Having an SDF function for an arithmetic spiral that takes as input a start position, length, width, and space between spirals would be useful in a variety of applications.
