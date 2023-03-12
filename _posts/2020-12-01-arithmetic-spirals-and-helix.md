@@ -15,19 +15,19 @@ Having an SDF function for an arithmetic spiral that takes as input a start posi
 In fact I was also eager to learn and spent an unreasonably long time on this shader calculating an approximate distance to get there.
 ## Create a generic "Ribbon spiral" SDF in Shadertoy
 ### Before we start
-[SDF for Archimedean Spiral](https://www.shadertoy.com/view/stB3WK)
 
 I highly recommend watching this video first if you don't know what polar coordinates are. Then let's go !
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/r1UOB8NVE8I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-In polar coordinates we need to convert the coordinates of each for the screen we have an angle and a distance to the center.
+In polar coordinates we need to compute an angle and a distance to the center for each point on the screen.
 
 ### Center distance 
 Let's start with the distance to the center. The code below allows to visualize this distance.
 
-The floor function is used to create some colored regions, and the fract fuction to give the distance of the point to the center of each region.  
-This is called "domain repetition" dans is widely used on Shadertoy.
+The **floor** function is used to create some colored regions, and the **fract** fuction to give the distance of the point to the center of each region.  Instead of fract that gives a result between 0 and 1 , you can use r-round(r) that directly gives a value between -0.5 and 0.5.
+
+This is called "domain repetition" and is widely used on Shadertoy.
 
 ```cpp
 void mainImage( out vec4 fragColor, in vec2 fragCoord )
@@ -48,7 +48,7 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
 
 ### Angle
 
-The idea now is to shift these concentric circles so that they form a spiral. For this we will use the second component of the polar coordinates which is the angle with the X axis. This is obtained with the atan function.
+The idea now is to shift these concentric circles so that they form a spiral. For this we will use the second component of the polar coordinates, the angle with the X axis. This is obtained with the atan function.
 
 I noticed that in the video that Martin used **atan(x,y)** while the normal use and **atan(y,x)** which then gives the angle between the abscissa axis and Point P on the screen. 
 the code below allows to visualize the output value of the function atan(y,x) for all the points on the screen. These values range from -PI to +PI.
@@ -69,15 +69,31 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
 
 ### Draw a spiral
 
-Definition found on wikipedia for the arithmetic spiral is $r = b \times a$. 
+The definition found on wikipedia for the arithmetic spiral is $r = b \times a$. 
 
 We will keep this convention so as not to get lost in this code.
 
-As i want the spiral cube increases by 1 units every turn but will just put $b = \frac{1}{2\times\pi}$
+As I want the spiral cube increases by 1 units every turn but will just put $b = \frac{1}{2\times\pi}$
 
-When we add b times the angle given by atan function to the distance to the center we get a new distance and here is my spiral !
+When we add b times the angle given by atan function to the distance to the center we get a new distance and here is the spiral !
 
 ```cpp
+#define TAU 6.28318530718
+void mainImage( out vec4 fragColor, in vec2 fragCoord )
+{
+    vec2 uv = (fragCoord-.5*iResolution.xy)/iResolution.y;
+    uv *=10.;
+    float e = 20./iResolution.y;
+    vec3 col = vec3(0);
+    float r = length(uv);
+    float b=1./TAU;
+    float sector = atan(uv.y,uv.x);
+    float grad = r+sector*b;
+    float id = floor(grad), rg = fract(grad)-.5;
+    col += id*.1 * (id > 0.0 ? vec3(1.000,0.522,0.522) : -vec3(0.478,0.478,1.000));
+    col += smoothstep(e,-e,abs(rg));
+    fragColor = vec4(sqrt(col),1.0);
+}
 ```
 
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/cdKGDw?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
@@ -106,6 +122,7 @@ float id = floor(grad), rg = grad-round(min(max(r,b*a1+.5),b*a2-.5)+b*sector);
 
 * Compute UV coordinates
 * Get the a value for a given length of the spiral.
+* Finished shader below [SDF for Archimedean Spiral](https://www.shadertoy.com/view/stB3WK)
 
 ## References
 [searching using the helix keyword](https://www.shadertoy.com/results?query=helix&sort=popular&from=24&num=12)  
