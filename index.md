@@ -19,7 +19,7 @@ I also made another [Blog](https://sylvain69780.github.io/digital-culture/) in F
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}"><b>{{post.date | date: "%-d %B %Y"}}</b> {{ post.title }}</a>
+      <b>{{post.date | date: "%-d %B %Y"}} </b><a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
