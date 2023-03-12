@@ -50,7 +50,7 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
 
 The idea now is to shift these concentric circles so that they form a spiral. For this we will use the second component of the polar coordinates, the angle with the X axis. This is obtained with the atan function.
 
-I noticed that in the video that Martin used **atan(x,y)** while the normal use and **atan(y,x)** which then gives the angle between the abscissa axis and Point P on the screen. 
+I noticed that in the video that Martin used **atan(x,y)**. The typical usage is instead **atan(y,x)** which then gives the angle between the X axis and segment from the origin to the point p on the screen. 
 the code below allows to visualize the output value of the function atan(y,x) for all the points on the screen. These values range from -PI to +PI.
 
 ```cpp
@@ -115,8 +115,11 @@ We can clamp using the more complex code below.
 ```cpp
 float id = floor(grad), rg = grad-round(min(max(r,b*a1+.5),b*a2-.5)+b*sector);
 ```
-
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/cdVGDw?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
+
+I put 2 red circles and a green coloring to show what is going on in this formula.
+
+<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/csV3Wm?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
 
 ### To be continued
 
