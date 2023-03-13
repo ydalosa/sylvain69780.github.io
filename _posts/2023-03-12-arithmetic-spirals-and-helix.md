@@ -71,9 +71,9 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
 
 The definition found on wikipedia for the arithmetic spiral is $r = b \times a$. 
 
-We will keep this convention so as not to get lost in this code.
+On first lesson is to use the same names for the variables in the code to avoid any confusion.
 
-As I want the spiral cube increases by 1 units every turn but will just put $b = \frac{1}{2\times\pi}$
+As I want the spiral size to increases by 1 units every turn but will just put $b = \frac{1}{2\times\pi}$
 
 When we add b times the angle given by atan function to the distance to the center we get a new distance and here is the spiral !
 
@@ -117,7 +117,7 @@ float id = floor(grad), rg = grad-round(min(max(r,b*a1+.5),b*a2-.5)+b*sector);
 ```
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/cdVGDw?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
 
-I put 2 red circles and a green coloring to show what is going on in this formula.
+I put 2 red circles and a green coloring to show how the limits of the domain repetition as set.
 
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/csV3Wm?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
 
@@ -126,6 +126,8 @@ I put 2 red circles and a green coloring to show what is going on in this formul
 * Compute UV coordinates
 * Get the a value for a given length of the spiral.
 * Finished shader below [SDF for Archimedean Spiral](https://www.shadertoy.com/view/stB3WK)
+
+<iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/stB3WK?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
 
 ## References
 [searching using the helix keyword](https://www.shadertoy.com/results?query=helix&sort=popular&from=24&num=12)  
