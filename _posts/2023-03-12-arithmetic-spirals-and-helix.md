@@ -141,13 +141,22 @@ $$\large u\prime=b\times\sqrt{1+a^2}$$
 
 ## References
 [Formulas on Wikipedia](https://en.wikipedia.org/wiki/Archimedean_spiral#:~:text=The%20Archimedean%20spiral%20has%20the,the%20name%20%22arithmetic%20spiral%22.)
-[searching using the helix keyword](https://www.shadertoy.com/results?query=helix&sort=popular&from=24&num=12)  
-[Helix - distance (APPROXIMATED) - IQ](https://www.shadertoy.com/view/ftyBRd)  
-[On the salt lake - iapafoto](https://www.shadertoy.com/view/fsXcR8)  Have a look at the sdSpiral function used for the rolled bed.  
-[Basic Archimede Spiral  -  iapafoto](https://www.shadertoy.com/view/NdlyD4)  
-[Spiraled Layers - Tater](https://www.shadertoy.com/view/Ns3XWf)  
-[Spiral Arcs - distance - IQ](https://www.shadertoy.com/view/sssyWN)  
-[Développante du cercle](https://fr.wikipedia.org/wiki/D%C3%A9veloppante_du_cercle)  
-[Walking spirals - mrange](https://www.shadertoy.com/view/ddcGDl)  
+
+[searching using the helix keyword](https://www.shadertoy.com/results?query=helix&sort=popular&from=24&num=12)
+
+[Helix - distance (APPROXIMATED) - IQ](https://www.shadertoy.com/view/ftyBRd)
+
+[On the salt lake - iapafoto](https://www.shadertoy.com/view/fsXcR8)  Have a look at the sdSpiral function used for the rolled bed.
+
+[Basic Archimede Spiral  -  iapafoto](https://www.shadertoy.com/view/NdlyD4)
+
+[Spiraled Layers - Tater](https://www.shadertoy.com/view/Ns3XWf)
+
+[Spiral Arcs - distance - IQ](https://www.shadertoy.com/view/sssyWN)
+
+[Développante du cercle](https://fr.wikipedia.org/wiki/D%C3%A9veloppante_du_cercle)
+
+[Walking spirals - mrange](https://www.shadertoy.com/view/ddcGDl)
+
 Fabrice's tutorial for loopless spiral [make a spiral](https://shadertoyunofficial.wordpress.com/2019/01/15/case-study-making-dot-pattern-loopless/)  
 
