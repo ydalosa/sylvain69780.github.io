@@ -124,19 +124,30 @@ I put 2 red circles and a green coloring to show how the limits of the domain re
 ### To be continued
 
 * Compute UV coordinates
+
+We can identify a point in "Spiral coordinates" (u,v), using u as length of the spiral, and v as how far away the point is from the line of the spiral. We can use.
+
+$$\large u=\frac{b}{2}\times(a\times\sqrt{1+a^2}+\log(a+\sqrt{1+a^2}))$$
+
 * Get the a value for a given length of the spiral.
+
+We can use Newton Raphson method taking advantage of the fact that the derivative is easy and starting with $a=\sqrt{u}$
+
+$$\large u\prime=b\times\sqrt{1+a^2}$$
+
 * Finished shader below [SDF for Archimedean Spiral](https://www.shadertoy.com/view/stB3WK)
 
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/stB3WK?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
 
 ## References
+[Formulas on Wikipedia](https://en.wikipedia.org/wiki/Archimedean_spiral#:~:text=The%20Archimedean%20spiral%20has%20the,the%20name%20%22arithmetic%20spiral%22.)
 [searching using the helix keyword](https://www.shadertoy.com/results?query=helix&sort=popular&from=24&num=12)  
 [Helix - distance (APPROXIMATED) - IQ](https://www.shadertoy.com/view/ftyBRd)  
+[On the salt lake - iapafoto](https://www.shadertoy.com/view/fsXcR8)  Have a look at the sdSpiral function used for the rolled bed.  
 [Basic Archimede Spiral  -  iapafoto](https://www.shadertoy.com/view/NdlyD4)  
 [Spiraled Layers - Tater](https://www.shadertoy.com/view/Ns3XWf)  
 [Spiral Arcs - distance - IQ](https://www.shadertoy.com/view/sssyWN)  
 [Développante du cercle](https://fr.wikipedia.org/wiki/D%C3%A9veloppante_du_cercle)  
-Fabrice's tutorial for loopless spiral [make a spiral](https://shadertoyunofficial.wordpress.com/2019/01/15/case-study-making-dot-pattern-loopless/)  
 [Walking spirals - mrange](https://www.shadertoy.com/view/ddcGDl)  
-[On the salt lake - iapafoto](https://www.shadertoy.com/view/fsXcR8)  Have a look at the sdSpiral function used for the rolled bed.  
+Fabrice's tutorial for loopless spiral [make a spiral](https://shadertoyunofficial.wordpress.com/2019/01/15/case-study-making-dot-pattern-loopless/)  
 
