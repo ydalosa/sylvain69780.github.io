@@ -36,7 +36,7 @@ References :
 
 # Cube
 
-The exact SDF for a cube is simple, and there is an IQ's video on how to get it by yourseft.
+The exact SDF for a cube is simple, and there is an IQ's video on how to guess it by yourseft.
 Even more simple but not exact is to just take the MAX of the absolute value of each point coordinates ! (fBoxCheap in Mercury library)
 
 References :
@@ -52,7 +52,7 @@ I tried to understand the Cheap IQ function below using [Desmos](https://www.des
 This is derived from the distance to a plan, that is dot(p,n) + h (on the same page)  
 Here the plan normal n is vec3(1), to get it normalized there is this multiplication by 0.57735027 that is 1/sqrt(3).  
 By taking the absolute value of each coordinate, the function need to take care of only 1 plan instead of 8.  
-If I understand well, the distance is not too much over estimated, the maximum is sqrt(3) times the euclidian distance.  
+The distance is not too much over estimated, the maximum is sqrt(3) times the euclidian distance.  
 
 ```c
 float sdOctahedron( vec3 p, float s)
@@ -85,4 +85,10 @@ Refereneces
 - [Spalmer - Rhombic Dodecahedron Voxels](https://www.shadertoy.com/view/WdXBR8)
 - [Shane - Lattice Framework](https://www.shadertoy.com/view/lttGDn)  
   
+# intersecting octahedra and tretrahedra
+
+Creating intersecting polyhedra in Shadertoy is a relatively simple task that can result in stunning star-like figures.
+
+- [flockaroo - tiny code star - spiral stepping ](https://www.shadertoy.com/view/dlcGRH)
+- [Polytope compound - Wikipedia](https://en.wikipedia.org/wiki/Polytope_compound)
 
