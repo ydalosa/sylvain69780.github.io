@@ -71,8 +71,6 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord )
 
 The definition found on wikipedia for the arithmetic spiral is $r = b \times a$. 
 
-On first lesson is to use the same names for the variables in the code to avoid any confusion.
-
 As I want the spiral size to increases by 1 units every turn but will just put $b = \frac{1}{2\times\pi}$
 
 When we add b times the angle given by atan function to the distance to the center we get a new distance and here is the spiral !
@@ -121,7 +119,7 @@ I put 2 red circles and a green coloring to show how the limits of the domain re
 
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/csV3Wm?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
 
-### To be continued
+### Improvements
 
 * Compute UV coordinates
 
@@ -129,7 +127,7 @@ We can identify a point in "Spiral coordinates" (u,v), using u as length of the 
 
 $$\large u=\frac{b}{2}\times(a\times\sqrt{1+a^2}+\log(a+\sqrt{1+a^2}))$$
 
-* Get the a value for a given length of the spiral.
+* Get the value of "a" for a given length of the spiral.
 
 We can use Newton Raphson method taking advantage of the fact that the derivative is easy and starting with $a=\sqrt{u}$
 
