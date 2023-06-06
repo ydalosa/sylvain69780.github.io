@@ -8,7 +8,8 @@ I love the minimalist design of this event.
 I know about this annual event for coders through my nephew Cyrille. Not very confident at first, I had finished last year's puzzles a few months late.
 Let try to do it using C# and Python.  
 
-I would have liked to continue the description of my solutions for each problem, but I now think that I will not finish this work. My codes are on [my github repository](https://github.com/sylvain69780/AdventOfCode2022)
+
+[In a Blazor SPA I created](https://sylvain69780.github.io/AdventOfCode2022web/)
 # Day 1
 
 [Here](https://adventofcode.com/2022/day/1) we have a groups of number separated with newlines and an empty line as a separator.
@@ -80,6 +81,20 @@ static void Day1()
     }
     Console.WriteLine(m);
 }
+```
+After just thinking twice 
+```csharp
+        protected override string Part1(string inp)
+        {
+            var elfCalories = 0;
+            var maxCalories = 0;
+            foreach (var line in ToLines(inp))
+            {
+                elfCalories = line == string.Empty ? 0 : elfCalories + int.Parse(line);
+                maxCalories = Math.Max(maxCalories, elfCalories);
+            }
+            return maxCalories.ToString();
+        }
 ```
 Part 2 need to have top 3
 ```csharp
