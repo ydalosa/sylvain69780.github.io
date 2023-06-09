@@ -68,7 +68,8 @@ All possible combinations of rotations of the Icosahedral symmetry
 - [Closest icosahedron vertices - tdhooper](https://www.shadertoy.com/view/fdXcDl)
 - [Compound of five octahedra - Wikipedia](https://en.wikipedia.org/wiki/Compound_of_five_octahedra#:~:text=The%20compound%20of%20five%20octahedra,having%20a%20regular%20convex%20hull.)
 - [tiny code star - spiral stepping - flockaroo](https://www.shadertoy.com/ view/dlcGRH) 
-
+Allows to obtain coordinates of textures (uv) by mapping on the different regular polyhedra. Not designed for raymarching but texturing.
+- [Spherical polyhedra - nimitz](https://www.shadertoy.com/view/4dBXWD)
 
 ```
 
