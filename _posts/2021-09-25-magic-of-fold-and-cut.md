@@ -121,3 +121,5 @@ If you look carfully to the comments and the graphical interface, it explains al
 - [UN BALLON DE FOOT FRACTAL ... et d’autres objets étranges - Jos Leys](https://images.math.cnrs.fr/Un-ballon-de-foot-fractal.html?lang=es&id_forum=5490)
 - [Wythoff Polyhedra with Exact SDF - mla](https://www.shadertoy.com/view/WlccR8)
 - [silver tilings - flockaroo](https://www.shadertoy.com/view/XsXfz2)
+- [heavy metal squiggle orb  - mattz](https://www.shadertoy.com/view/wsGfD3)
+  

@@ -20,9 +20,9 @@ Exploring the vast realm of Shadertoy unveils a captivating rabbit hole of topic
 
 # References
 
-* https://en.wikipedia.org/wiki/Point_group
-* https://en.wikipedia.org/wiki/Polyhedral_group
-* http://wiki.scienceamusante.net/index.php/Groupes_ponctuels_de_sym%C3%A9trie
+* [Point Group - Wikipedia](https://en.wikipedia.org/wiki/Point_group)
+* [Polyhedral group - Wikipedia](https://en.wikipedia.org/wiki/Polyhedral_group)
+* [Wikipedia FR](http://wiki.scienceamusante.net/index.php/Groupes_ponctuels_de_sym%C3%A9trie)
 * [Wythoff explorer - mattz](https://www.shadertoy.com/view/Md3yRB)
 
 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/7t2cRd?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
